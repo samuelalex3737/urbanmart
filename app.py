@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load data
-df = pd.read_csv("urbanmart_sales.csv")
+df = pd.read_csv("transactions_1000.csv")
 df['line_revenue'] = (df['quantity'] * df['unit_price']) - df['discount_applied']
 df['date'] = pd.to_datetime(df['date'])
 df['day_of_week'] = df['date'].dt.day_name()
@@ -53,4 +53,5 @@ st.subheader("Top Customers")
 st.write(df_filtered.groupby('customer_id')['line_revenue'].sum().sort_values(ascending=False).head(5))
 
 st.subheader("Sample Raw Data")
+
 st.dataframe(df_filtered.head(20))
