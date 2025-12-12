@@ -3,109 +3,144 @@ import pandas as pd
 
 # Load data
 df = pd.read_csv("transactions_1000.csv")
-
-# Fix date format (DD-MM-YYYY)
 df['date'] = pd.to_datetime(df['date'], format="%d-%m-%Y")
-
-# Compute revenue
 df['line_revenue'] = (df['quantity'] * df['unit_price']) - df['discount_applied']
 df['day_of_week'] = df['date'].dt.day_name()
 
-st.title("UrbanMart Sales Dashboard")
-st.write("Built by MAIB students using Python & Streamlit")
+# --- Dashboard Styling ---
+st.set_page_config(page_title="UrbanMart Dashboard", layout="wide")
 
-# Sidebar filters
-st.sidebar.header("Filters")
+PRIMARY_COLOR = "#4CAF50"
+SECONDARY_COLOR = "#2196F3"
+ACCENT_COLOR = "#FF9800"
 
-date_range = st.sidebar.date_input(
-    "Select Date Range",
-    [df['date'].min(), df['date'].max()]
+st.markdown(
+    f"""
+    <style>
+        .metric-box {{
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid {PRIMARY_COLOR};
+        }}
+        .section-title {{
+            font-size: 22px;
+            font-weight: 600;
+            color: {PRIMARY_COLOR};
+            margin-top: 30px;
+        }}
+    </style>
+    """,
+    unsafe_allow_html=True
 )
 
-store_filter = st.sidebar.multiselect(
-    "Select Store Location",
-    df['store_location'].unique()
-)
+# --- Title ---
+st.title("UrbanMart Sales Intelligence Dashboard")
+st.write("A professional analytics dashboard built for executive insights.")
 
-channel_filter = st.sidebar.selectbox(
-    "Select Channel",
-    ["All"] + df['channel'].unique().tolist()
-)
+# --- KPIs ---
+st.markdown("<div class='section-title'>Key Performance Indicators</div>", unsafe_allow_html=True)
 
-category_filter = st.sidebar.multiselect(
-    "Select Product Category",
-    df['product_category'].unique()
-)
-
-segment_filter = st.sidebar.multiselect(
-    "Select Customer Segment",
-    df['customer_segment'].unique()
-)
-
-# Apply filters
-df_filtered = df.copy()
-
-if len(date_range) == 2:
-    df_filtered = df_filtered[
-        (df_filtered['date'] >= pd.to_datetime(date_range[0])) &
-        (df_filtered['date'] <= pd.to_datetime(date_range[1]))
-    ]
-
-if store_filter:
-    df_filtered = df_filtered[df_filtered['store_location'].isin(store_filter)]
-
-if channel_filter != "All":
-    df_filtered = df_filtered[df_filtered['channel'] == channel_filter]
-
-if category_filter:
-    df_filtered = df_filtered[df_filtered['product_category'].isin(category_filter)]
-
-if segment_filter:
-    df_filtered = df_filtered[df_filtered['customer_segment'].isin(segment_filter)]
-
-# Handle empty results
-if df_filtered.empty:
-    st.warning("No data available for the selected filters.")
-    st.stop()
-
-# KPIs
-st.subheader("Key Metrics")
 col1, col2, col3, col4 = st.columns(4)
 
-col1.metric("Total Revenue", round(df_filtered['line_revenue'].sum(), 2))
-col2.metric("Total Transactions", df_filtered['transaction_id'].nunique())
-col3.metric("Avg Revenue per Transaction", round(df_filtered['line_revenue'].mean(), 2))
-col4.metric("Unique Customers", df_filtered['customer_id'].nunique())
+with col1:
+    st.markdown("<div class='metric-box'>", unsafe_allow_html=True)
+    st.metric("Total Revenue", round(df['line_revenue'].sum(), 2))
+    st.markdown("</div>", unsafe_allow_html=True)
 
-# Charts
-st.subheader("Revenue by Category")
-st.bar_chart(df_filtered.groupby('product_category')['line_revenue'].sum().sort_values())
+with col2:
+    st.markdown("<div class='metric-box'>", unsafe_allow_html=True)
+    st.metric("Total Transactions", df['transaction_id'].nunique())
+    st.markdown("</div>", unsafe_allow_html=True)
 
-st.subheader("Revenue by Store")
-st.bar_chart(df_filtered.groupby('store_location')['line_revenue'].sum().sort_values())
+with col3:
+    st.markdown("<div class='metric-box'>", unsafe_allow_html=True)
+    st.metric("Avg Revenue per Transaction", round(df['line_revenue'].mean(), 2))
+    st.markdown("</div>", unsafe_allow_html=True)
 
-st.subheader("Revenue by Channel")
-st.bar_chart(df_filtered.groupby('channel')['line_revenue'].sum())
+with col4:
+    st.markdown("<div class='metric-box'>", unsafe_allow_html=True)
+    st.metric("Unique Customers", df['customer_id'].nunique())
+    st.markdown("</div>", unsafe_allow_html=True)
 
-st.subheader("Revenue by Day of Week")
-st.bar_chart(df_filtered.groupby('day_of_week')['line_revenue'].sum())
+# --- Tabs for Professional Layout ---
+tab1, tab2, tab3, tab4 = st.tabs([
+    "Revenue by Category",
+    "Revenue by Store",
+    "Top Products",
+    "Top Customers"
+])
 
-st.subheader("Top Products")
-st.write(
-    df_filtered.groupby('product_name')['line_revenue']
-    .sum()
-    .sort_values(ascending=False)
-    .head(5)
-)
+# --- TAB 1: Revenue by Category ---
+with tab1:
+    st.markdown("<div class='section-title'>Revenue by Product Category</div>", unsafe_allow_html=True)
 
-st.subheader("Top Customers")
-st.write(
-    df_filtered.groupby('customer_id')['line_revenue']
-    .sum()
-    .sort_values(ascending=False)
-    .head(5)
-)
+    category_filter = st.multiselect(
+        "Filter Categories",
+        df['product_category'].unique()
+    )
 
-st.subheader("Sample Raw Data")
-st.dataframe(df_filtered.head(20))
+    df_cat = df.copy()
+    if category_filter:
+        df_cat = df_cat[df_cat['product_category'].isin(category_filter)]
 
+    st.bar_chart(
+        df_cat.groupby('product_category')['line_revenue'].sum().sort_values()
+    )
+
+# --- TAB 2: Revenue by Store ---
+with tab2:
+    st.markdown("<div class='section-title'>Revenue by Store Location</div>", unsafe_allow_html=True)
+
+    store_filter = st.multiselect(
+        "Filter Store Locations",
+        df['store_location'].unique()
+    )
+
+    df_store = df.copy()
+    if store_filter:
+        df_store = df_store[df_store['store_location'].isin(store_filter)]
+
+    st.bar_chart(
+        df_store.groupby('store_location')['line_revenue'].sum().sort_values()
+    )
+
+# --- TAB 3: Top Products ---
+with tab3:
+    st.markdown("<div class='section-title'>Top 5 Products by Revenue</div>", unsafe_allow_html=True)
+
+    product_filter = st.multiselect(
+        "Filter Product Categories",
+        df['product_category'].unique()
+    )
+
+    df_prod = df.copy()
+    if product_filter:
+        df_prod = df_prod[df_prod['product_category'].isin(product_filter)]
+
+    st.write(
+        df_prod.groupby('product_name')['line_revenue']
+        .sum()
+        .sort_values(ascending=False)
+        .head(5)
+    )
+
+# --- TAB 4: Top Customers ---
+with tab4:
+    st.markdown("<div class='section-title'>Top 5 Customers by Revenue</div>", unsafe_allow_html=True)
+
+    segment_filter = st.multiselect(
+        "Filter Customer Segment",
+        df['customer_segment'].unique()
+    )
+
+    df_cust = df.copy()
+    if segment_filter:
+        df_cust = df_cust[df_cust['customer_segment'].isin(segment_filter)]
+
+    st.write(
+        df_cust.groupby('customer_id')['line_revenue']
+        .sum()
+        .sort_values(ascending=False)
+        .head(5)
+    )
