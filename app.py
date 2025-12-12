@@ -5,15 +5,15 @@ import altair as alt
 # Load data
 df = pd.read_csv("transactions_1000.csv")
 df['date'] = pd.to_datetime(df['date'], format="%d-%m-%Y")
+df['quarter'] = df['date'].dt.to_period("Q").astype(str)
 df['line_revenue'] = (df['quantity'] * df['unit_price']) - df['discount_applied']
-df['day_of_week'] = df['date'].dt.day_name()
 
 # --- Dashboard Styling ---
 st.set_page_config(page_title="UrbanMart Dashboard", layout="wide")
 
-PRIMARY_COLOR = "#4CAF50"
-SECONDARY_COLOR = "#2196F3"
-ACCENT_COLOR = "#FF9800"
+PRIMARY = "#4CAF50"
+SECONDARY = "#2196F3"
+ACCENT = "#FF9800"
 
 st.markdown(
     f"""
@@ -22,13 +22,20 @@ st.markdown(
             background-color: #f7f7f7;
             padding: 20px;
             border-radius: 10px;
-            border-left: 5px solid {PRIMARY_COLOR};
+            border-left: 5px solid {PRIMARY};
         }}
         .section-title {{
             font-size: 22px;
             font-weight: 600;
-            color: {PRIMARY_COLOR};
+            color: {PRIMARY};
             margin-top: 30px;
+        }}
+        .highlight {{
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid {ACCENT};
+            margin-bottom: 15px;
         }}
     </style>
     """,
@@ -37,7 +44,7 @@ st.markdown(
 
 # --- Title ---
 st.title("UrbanMart Sales Intelligence Dashboard")
-st.write("A professional analytics dashboard built for executive insights.")
+st.write("A compact, executive-ready analytics dashboard.")
 
 # --- KPIs ---
 st.markdown("<div class='section-title'>Key Performance Indicators</div>", unsafe_allow_html=True)
@@ -64,138 +71,148 @@ with col4:
     st.metric("Unique Customers", df['customer_id'].nunique())
     st.markdown("</div>", unsafe_allow_html=True)
 
-# --- Tabs ---
-tab1, tab2, tab3, tab4 = st.tabs([
-    "Revenue by Category",
-    "Revenue by Store",
-    "Top Products",
-    "Top Customers"
-])
+# --- QUARTERLY REVENUE ---
+st.markdown("<div class='section-title'>Quarterly Revenue Analysis</div>", unsafe_allow_html=True)
 
-# --- TAB 1: Revenue by Category ---
-with tab1:
-    st.markdown("<div class='section-title'>Revenue by Product Category</div>", unsafe_allow_html=True)
+quarter_filter = st.multiselect("Select Quarter", df['quarter'].unique())
 
-    category_filter = st.multiselect(
-        "Filter Categories",
-        df['product_category'].unique()
+df_q = df.copy()
+if quarter_filter:
+    df_q = df_q[df_q['quarter'].isin(quarter_filter)]
+
+quarter_data = df_q.groupby("quarter")["line_revenue"].sum().reset_index()
+
+if len(quarter_filter) == 1:
+    q = quarter_filter[0]
+    rev = quarter_data.loc[quarter_data['quarter'] == q, 'line_revenue'].values[0]
+    st.markdown(f"<div class='highlight'>Revenue for <b>{q}</b> is <b>{rev:.2f}</b>.</div>", unsafe_allow_html=True)
+else:
+    chart = (
+        alt.Chart(quarter_data)
+        .mark_bar(color=PRIMARY)
+        .encode(
+            x="quarter:N",
+            y="line_revenue:Q",
+            tooltip=["quarter", "line_revenue"]
+        )
     )
+    st.altair_chart(chart, use_container_width=True)
 
-    df_cat = df.copy()
-    if category_filter:
-        df_cat = df_cat[df_cat['product_category'].isin(category_filter)]
+# --- CATEGORY REVENUE ---
+st.markdown("<div class='section-title'>Revenue by Category</div>", unsafe_allow_html=True)
 
-    cat_data = df_cat.groupby("product_category")["line_revenue"].sum().reset_index()
+category_filter = st.multiselect("Filter Category", df['product_category'].unique())
 
+df_cat = df.copy()
+if category_filter:
+    df_cat = df_cat[df_cat['product_category'].isin(category_filter)]
+
+cat_data = df_cat.groupby("product_category")["line_revenue"].sum().reset_index()
+
+if len(category_filter) == 1:
+    cat = category_filter[0]
+    rev = cat_data.loc[cat_data['product_category'] == cat, 'line_revenue'].values[0]
+    st.markdown(f"<div class='highlight'>Revenue for <b>{cat}</b> is <b>{rev:.2f}</b>.</div>", unsafe_allow_html=True)
+else:
     chart = (
         alt.Chart(cat_data)
-        .mark_bar(color=PRIMARY_COLOR)
+        .mark_bar(color=SECONDARY)
         .encode(
-            x=alt.X("line_revenue:Q", title="Revenue"),
-            y=alt.Y("product_category:N", sort="-x", title="Category"),
+            x="product_category:N",
+            y="line_revenue:Q",
             tooltip=["product_category", "line_revenue"]
         )
-        .properties(height=400)
     )
-
     st.altair_chart(chart, use_container_width=True)
 
-# --- TAB 2: Revenue by Store ---
-with tab2:
-    st.markdown("<div class='section-title'>Revenue by Store Location</div>", unsafe_allow_html=True)
+# --- STORE REVENUE ---
+st.markdown("<div class='section-title'>Revenue by Store</div>", unsafe_allow_html=True)
 
-    store_filter = st.multiselect(
-        "Filter Store Locations",
-        df['store_location'].unique()
-    )
+store_filter = st.multiselect("Filter Store", df['store_location'].unique())
 
-    df_store = df.copy()
-    if store_filter:
-        df_store = df_store[df_store['store_location'].isin(store_filter)]
+df_store = df.copy()
+if store_filter:
+    df_store = df_store[df_store['store_location'].isin(store_filter)]
 
-    store_data = df_store.groupby("store_location")["line_revenue"].sum().reset_index()
+store_data = df_store.groupby("store_location")["line_revenue"].sum().reset_index()
 
+if len(store_filter) == 1:
+    s = store_filter[0]
+    rev = store_data.loc[store_data['store_location'] == s, 'line_revenue'].values[0]
+    st.markdown(f"<div class='highlight'>Revenue for <b>{s}</b> store is <b>{rev:.2f}</b>.</div>", unsafe_allow_html=True)
+else:
     chart = (
         alt.Chart(store_data)
-        .mark_bar()
+        .mark_bar(color=ACCENT)
         .encode(
-            x=alt.X("store_location:N", title="Store"),
-            y=alt.Y("line_revenue:Q", title="Revenue"),
-            color=alt.Color("store_location:N", scale=alt.Scale(scheme="tableau10")),
+            x="store_location:N",
+            y="line_revenue:Q",
             tooltip=["store_location", "line_revenue"]
         )
-        .properties(height=400)
     )
-
     st.altair_chart(chart, use_container_width=True)
 
-# --- TAB 3: Top Products ---
-with tab3:
-    st.markdown("<div class='section-title'>Top 5 Products by Revenue</div>", unsafe_allow_html=True)
+# --- TOP PRODUCTS ---
+st.markdown("<div class='section-title'>Top Products</div>", unsafe_allow_html=True)
 
-    product_filter = st.multiselect(
-        "Filter Product Categories",
-        df['product_category'].unique()
+product_filter = st.multiselect("Filter Product Category", df['product_category'].unique())
+
+df_prod = df.copy()
+if product_filter:
+    df_prod = df_prod[df_prod['product_category'].isin(product_filter)]
+
+prod_data = (
+    df_prod.groupby("product_name")["line_revenue"]
+    .sum()
+    .sort_values(ascending=False)
+    .head(5)
+    .reset_index()
+)
+
+if len(product_filter) == 1:
+    st.markdown("<div class='highlight'>Showing top products for the selected category.</div>", unsafe_allow_html=True)
+
+chart = (
+    alt.Chart(prod_data)
+    .mark_bar()
+    .encode(
+        x="line_revenue:Q",
+        y=alt.Y("product_name:N", sort="-x"),
+        color=alt.Color("line_revenue:Q", scale=alt.Scale(scheme="blues")),
+        tooltip=["product_name", "line_revenue"]
     )
+)
+st.altair_chart(chart, use_container_width=True)
 
-    df_prod = df.copy()
-    if product_filter:
-        df_prod = df_prod[df_prod['product_category'].isin(product_filter)]
+# --- TOP CUSTOMERS ---
+st.markdown("<div class='section-title'>Top Customers</div>", unsafe_allow_html=True)
 
-    prod_data = (
-        df_prod.groupby("product_name")["line_revenue"]
-        .sum()
-        .sort_values(ascending=False)
-        .head(5)
-        .reset_index()
+segment_filter = st.multiselect("Filter Customer Segment", df['customer_segment'].unique())
+
+df_cust = df.copy()
+if segment_filter:
+    df_cust = df_cust[df_cust['customer_segment'].isin(segment_filter)]
+
+cust_data = (
+    df_cust.groupby("customer_id")["line_revenue"]
+    .sum()
+    .sort_values(ascending=False)
+    .head(5)
+    .reset_index()
+)
+
+if len(segment_filter) == 1:
+    st.markdown("<div class='highlight'>Showing top customers for the selected segment.</div>", unsafe_allow_html=True)
+
+chart = (
+    alt.Chart(cust_data)
+    .mark_circle()
+    .encode(
+        x="customer_id:N",
+        y="line_revenue:Q",
+        size=alt.Size("line_revenue:Q", scale=alt.Scale(range=[200, 2000])),
+        color=alt.Color("line_revenue:Q", scale=alt.Scale(scheme="oranges")),
+        tooltip=["customer_id", "line_revenue"]
     )
-
-    chart = (
-        alt.Chart(prod_data)
-        .mark_bar()
-        .encode(
-            x=alt.X("line_revenue:Q", title="Revenue"),
-            y=alt.Y("product_name:N", sort="-x", title="Product"),
-            color=alt.Color("line_revenue:Q", scale=alt.Scale(scheme="blues")),
-            tooltip=["product_name", "line_revenue"]
-        )
-        .properties(height=400)
-    )
-
-    st.altair_chart(chart, use_container_width=True)
-
-# --- TAB 4: Top Customers ---
-with tab4:
-    st.markdown("<div class='section-title'>Top 5 Customers by Revenue</div>", unsafe_allow_html=True)
-
-    segment_filter = st.multiselect(
-        "Filter Customer Segment",
-        df['customer_segment'].unique()
-    )
-
-    df_cust = df.copy()
-    if segment_filter:
-        df_cust = df_cust[df_cust['customer_segment'].isin(segment_filter)]
-
-    cust_data = (
-        df_cust.groupby("customer_id")["line_revenue"]
-        .sum()
-        .sort_values(ascending=False)
-        .head(5)
-        .reset_index()
-    )
-
-    chart = (
-        alt.Chart(cust_data)
-        .mark_circle()
-        .encode(
-            x=alt.X("customer_id:N", title="Customer"),
-            y=alt.Y("line_revenue:Q", title="Revenue"),
-            size=alt.Size("line_revenue:Q", scale=alt.Scale(range=[100, 2000])),
-            color=alt.Color("line_revenue:Q", scale=alt.Scale(scheme="oranges")),
-            tooltip=["customer_id", "line_revenue"]
-        )
-        .properties(height=400)
-    )
-
-    st.altair_chart(chart, use_container_width=True)
+)
+st.altair_chart(chart, use_container_width=True)
