@@ -87,9 +87,6 @@ st.bar_chart(df_filtered.groupby('store_location')['line_revenue'].sum().sort_va
 st.subheader("Revenue by Channel")
 st.bar_chart(df_filtered.groupby('channel')['line_revenue'].sum())
 
-st.subheader("Daily Revenue Trend")
-st.line_chart(df_filtered.groupby('date')['line_revenue'].sum())
-
 st.subheader("Revenue by Day of Week")
 st.bar_chart(df_filtered.groupby('day_of_week')['line_revenue'].sum())
 
@@ -111,3 +108,4 @@ st.write(
 
 st.subheader("Sample Raw Data")
 st.dataframe(df_filtered.head(20))
+
