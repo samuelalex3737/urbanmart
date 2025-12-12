@@ -1,0 +1,1001 @@
+transaction_id,bill_id,date,store_id,store_location,customer_id,customer_segment,product_id,product_category,product_name,quantity,unit_price,payment_method,discount_applied,channel
+TXN-2025-0001,BILL-1001,02-01-2025,S3,Uptown,C147,New,P302,Personal Care,Body Wash,5,7.17,UPI,1,Online
+TXN-2025-0002,BILL-1001,06-01-2025,S3,Uptown,C069,Regular,P205,Snacks,Potato Chips,5,3.6,Credit Card,0,In-store
+TXN-2025-0003,BILL-1001,25-01-2025,S1,Downtown,C084,New,P401,Beverages,Green Tea,1,3.36,UPI,0,In-store
+TXN-2025-0004,BILL-1001,15-01-2025,S1,Downtown,C035,Regular,P303,Personal Care,Face Cream,1,8.71,Cash,0.5,In-store
+TXN-2025-0005,BILL-1001,23-01-2025,S3,Uptown,C043,Loyal,P301,Personal Care,Shampoo 250ml,1,7.91,UPI,1,Online
+TXN-2025-0006,BILL-1001,07-01-2025,S3,Uptown,C150,Regular,P102,Beverages,Soda 500ml,3,5.11,Cash,0,Online
+TXN-2025-0007,BILL-1001,18-01-2025,S1,Downtown,C127,Loyal,P301,Personal Care,Shampoo 250ml,2,7.72,Cash,0,In-store
+TXN-2025-0008,BILL-1002,08-01-2025,S1,Downtown,C044,New,P301,Personal Care,Shampoo 250ml,1,1.4,Cash,1,In-store
+TXN-2025-0009,BILL-1002,16-01-2025,S2,Suburban,C005,Regular,P102,Beverages,Soda 500ml,5,7.23,Cash,0.5,In-store
+TXN-2025-0010,BILL-1002,03-01-2025,S1,Downtown,C081,New,P501,Snacks,Chocolate Bar,4,5.5,Credit Card,1,Online
+TXN-2025-0011,BILL-1002,27-01-2025,S2,Suburban,C070,New,P401,Beverages,Green Tea,4,3.69,Cash,0.5,Online
+TXN-2025-0012,BILL-1003,22-01-2025,S1,Downtown,C002,Regular,P301,Personal Care,Shampoo 250ml,5,9.89,UPI,1,Online
+TXN-2025-0013,BILL-1003,19-01-2025,S1,Downtown,C043,New,P102,Beverages,Soda 500ml,3,1.23,UPI,0,Online
+TXN-2025-0014,BILL-1004,18-01-2025,S2,Suburban,C011,New,P302,Personal Care,Body Wash,5,3.62,Cash,1,Online
+TXN-2025-0015,BILL-1004,08-01-2025,S2,Suburban,C069,New,P302,Personal Care,Body Wash,3,6.45,Cash,0.5,In-store
+TXN-2025-0016,BILL-1005,13-01-2025,S1,Downtown,C113,Regular,P401,Beverages,Green Tea,4,6.83,Credit Card,0.5,In-store
+TXN-2025-0017,BILL-1005,19-01-2025,S1,Downtown,C062,New,P205,Snacks,Potato Chips,1,2.15,UPI,0,In-store
+TXN-2025-0018,BILL-1005,28-01-2025,S3,Uptown,C035,Regular,P210,Snacks,Nachos,5,4.98,UPI,0,In-store
+TXN-2025-0019,BILL-1005,16-01-2025,S3,Uptown,C140,New,P205,Snacks,Potato Chips,3,7.29,Cash,0,In-store
+TXN-2025-0020,BILL-1006,11-01-2025,S1,Downtown,C056,Regular,P102,Beverages,Soda 500ml,1,1.52,UPI,1,In-store
+TXN-2025-0021,BILL-1006,26-01-2025,S1,Downtown,C117,Regular,P101,Beverages,Orange Juice 1L,1,6.22,Credit Card,1,In-store
+TXN-2025-0022,BILL-1007,19-01-2025,S1,Downtown,C043,Regular,P301,Personal Care,Shampoo 250ml,5,1.14,UPI,0.5,In-store
+TXN-2025-0023,BILL-1007,07-01-2025,S1,Downtown,C077,Regular,P301,Personal Care,Shampoo 250ml,5,1.38,Credit Card,0,Online
+TXN-2025-0024,BILL-1007,31-01-2025,S3,Uptown,C099,Loyal,P301,Personal Care,Shampoo 250ml,5,4.73,Credit Card,0.5,Online
+TXN-2025-0025,BILL-1007,25-01-2025,S3,Uptown,C003,Loyal,P205,Snacks,Potato Chips,5,9.56,Cash,1,Online
+TXN-2025-0026,BILL-1007,06-01-2025,S2,Suburban,C013,New,P101,Beverages,Orange Juice 1L,1,8.55,Cash,0,Online
+TXN-2025-0027,BILL-1007,11-01-2025,S1,Downtown,C062,New,P401,Beverages,Green Tea,2,3.97,UPI,0.5,In-store
+TXN-2025-0028,BILL-1007,26-01-2025,S2,Suburban,C111,Regular,P301,Personal Care,Shampoo 250ml,3,7.18,Cash,0.5,Online
+TXN-2025-0029,BILL-1007,12-01-2025,S3,Uptown,C042,Regular,P401,Beverages,Green Tea,3,9.99,UPI,0,In-store
+TXN-2025-0030,BILL-1007,23-01-2025,S3,Uptown,C137,Loyal,P205,Snacks,Potato Chips,1,6.68,UPI,0,Online
+TXN-2025-0031,BILL-1007,02-01-2025,S2,Suburban,C095,New,P401,Beverages,Green Tea,5,7.65,Credit Card,1,Online
+TXN-2025-0032,BILL-1007,29-01-2025,S2,Suburban,C139,Loyal,P101,Beverages,Orange Juice 1L,3,3.96,Credit Card,0.5,Online
+TXN-2025-0033,BILL-1007,18-01-2025,S2,Suburban,C137,New,P101,Beverages,Orange Juice 1L,4,7.49,Credit Card,0.5,Online
+TXN-2025-0034,BILL-1008,25-01-2025,S2,Suburban,C055,Regular,P101,Beverages,Orange Juice 1L,3,3.3,UPI,1,Online
+TXN-2025-0035,BILL-1008,31-01-2025,S2,Suburban,C032,Regular,P205,Snacks,Potato Chips,2,6.38,Credit Card,0.5,Online
+TXN-2025-0036,BILL-1008,24-01-2025,S3,Uptown,C130,Loyal,P302,Personal Care,Body Wash,1,7.54,Cash,0.5,In-store
+TXN-2025-0037,BILL-1008,05-01-2025,S2,Suburban,C062,Loyal,P101,Beverages,Orange Juice 1L,1,2.41,Cash,1,In-store
+TXN-2025-0038,BILL-1008,06-01-2025,S1,Downtown,C001,Loyal,P501,Snacks,Chocolate Bar,1,3.11,Cash,0,Online
+TXN-2025-0039,BILL-1009,06-01-2025,S1,Downtown,C002,New,P210,Snacks,Nachos,5,4.39,Credit Card,0,Online
+TXN-2025-0040,BILL-1009,08-01-2025,S1,Downtown,C004,New,P302,Personal Care,Body Wash,5,3.93,UPI,0.5,Online
+TXN-2025-0041,BILL-1009,04-01-2025,S2,Suburban,C016,Regular,P102,Beverages,Soda 500ml,3,1.93,UPI,0,Online
+TXN-2025-0042,BILL-1009,02-01-2025,S2,Suburban,C053,New,P401,Beverages,Green Tea,5,7.86,Credit Card,0.5,In-store
+TXN-2025-0043,BILL-1009,10-01-2025,S1,Downtown,C042,Loyal,P501,Snacks,Chocolate Bar,1,2.69,UPI,0.5,In-store
+TXN-2025-0044,BILL-1009,19-01-2025,S3,Uptown,C132,New,P301,Personal Care,Shampoo 250ml,5,1.93,Cash,0,In-store
+TXN-2025-0045,BILL-1009,08-01-2025,S3,Uptown,C071,Regular,P302,Personal Care,Body Wash,4,2.09,Credit Card,0,Online
+TXN-2025-0046,BILL-1009,11-01-2025,S2,Suburban,C111,Loyal,P401,Beverages,Green Tea,2,1.75,Cash,1,In-store
+TXN-2025-0047,BILL-1009,13-01-2025,S1,Downtown,C107,Loyal,P302,Personal Care,Body Wash,3,8.72,UPI,0,In-store
+TXN-2025-0048,BILL-1009,01-01-2025,S2,Suburban,C050,New,P210,Snacks,Nachos,5,3.04,Cash,1,In-store
+TXN-2025-0049,BILL-1010,21-01-2025,S1,Downtown,C083,New,P302,Personal Care,Body Wash,1,9.25,Credit Card,0,In-store
+TXN-2025-0050,BILL-1010,30-01-2025,S3,Uptown,C102,Loyal,P101,Beverages,Orange Juice 1L,1,6.28,UPI,0.5,In-store
+TXN-2025-0051,BILL-1010,27-01-2025,S2,Suburban,C141,New,P101,Beverages,Orange Juice 1L,1,3.69,Credit Card,0.5,Online
+TXN-2025-0052,BILL-1010,20-01-2025,S1,Downtown,C064,New,P101,Beverages,Orange Juice 1L,4,3.9,UPI,1,In-store
+TXN-2025-0053,BILL-1011,29-01-2025,S1,Downtown,C005,Loyal,P102,Beverages,Soda 500ml,1,2.89,UPI,1,In-store
+TXN-2025-0054,BILL-1011,13-01-2025,S3,Uptown,C010,New,P302,Personal Care,Body Wash,1,5.56,Credit Card,0,Online
+TXN-2025-0055,BILL-1011,16-01-2025,S1,Downtown,C072,New,P401,Beverages,Green Tea,5,6.91,UPI,0,In-store
+TXN-2025-0056,BILL-1011,24-01-2025,S2,Suburban,C053,New,P205,Snacks,Potato Chips,1,6.14,Cash,0.5,In-store
+TXN-2025-0057,BILL-1012,11-01-2025,S1,Downtown,C034,Regular,P101,Beverages,Orange Juice 1L,5,3.03,UPI,0,In-store
+TXN-2025-0058,BILL-1012,23-01-2025,S3,Uptown,C022,New,P303,Personal Care,Face Cream,2,3.4,Credit Card,0,In-store
+TXN-2025-0059,BILL-1012,18-01-2025,S2,Suburban,C058,Regular,P401,Beverages,Green Tea,3,9.13,Credit Card,0.5,Online
+TXN-2025-0060,BILL-1012,30-01-2025,S3,Uptown,C095,Regular,P501,Snacks,Chocolate Bar,4,3.8,UPI,0.5,In-store
+TXN-2025-0061,BILL-1013,05-01-2025,S1,Downtown,C143,New,P501,Snacks,Chocolate Bar,1,7.41,Credit Card,0.5,Online
+TXN-2025-0062,BILL-1013,25-01-2025,S1,Downtown,C058,New,P501,Snacks,Chocolate Bar,1,4.51,Credit Card,1,In-store
+TXN-2025-0063,BILL-1013,05-01-2025,S3,Uptown,C001,Regular,P303,Personal Care,Face Cream,5,1,Cash,1,In-store
+TXN-2025-0064,BILL-1013,13-01-2025,S3,Uptown,C022,Loyal,P101,Beverages,Orange Juice 1L,4,1.27,UPI,0,Online
+TXN-2025-0065,BILL-1013,06-01-2025,S2,Suburban,C083,Regular,P205,Snacks,Potato Chips,3,8.89,Cash,0,Online
+TXN-2025-0066,BILL-1013,02-01-2025,S3,Uptown,C029,Regular,P302,Personal Care,Body Wash,2,8.97,Cash,0.5,Online
+TXN-2025-0067,BILL-1013,11-01-2025,S3,Uptown,C088,Loyal,P303,Personal Care,Face Cream,1,9.09,UPI,0.5,Online
+TXN-2025-0068,BILL-1013,28-01-2025,S3,Uptown,C047,Regular,P205,Snacks,Potato Chips,2,6.16,Credit Card,0.5,Online
+TXN-2025-0069,BILL-1013,03-01-2025,S1,Downtown,C094,Loyal,P301,Personal Care,Shampoo 250ml,1,1.91,Cash,1,In-store
+TXN-2025-0070,BILL-1013,25-01-2025,S1,Downtown,C087,Loyal,P501,Snacks,Chocolate Bar,2,4.49,Credit Card,0,In-store
+TXN-2025-0071,BILL-1013,17-01-2025,S3,Uptown,C075,New,P301,Personal Care,Shampoo 250ml,4,7.58,Cash,0.5,Online
+TXN-2025-0072,BILL-1013,19-01-2025,S1,Downtown,C049,Regular,P101,Beverages,Orange Juice 1L,4,9.47,UPI,1,Online
+TXN-2025-0073,BILL-1013,18-01-2025,S3,Uptown,C058,New,P301,Personal Care,Shampoo 250ml,1,6.96,Cash,0.5,Online
+TXN-2025-0074,BILL-1013,02-01-2025,S1,Downtown,C113,Loyal,P210,Snacks,Nachos,5,4.16,Cash,1,In-store
+TXN-2025-0075,BILL-1014,05-01-2025,S1,Downtown,C106,New,P101,Beverages,Orange Juice 1L,4,7.31,Cash,0,In-store
+TXN-2025-0076,BILL-1014,03-01-2025,S1,Downtown,C115,New,P210,Snacks,Nachos,5,5.45,UPI,0.5,In-store
+TXN-2025-0077,BILL-1014,31-01-2025,S1,Downtown,C126,Loyal,P210,Snacks,Nachos,1,8.82,Cash,0.5,Online
+TXN-2025-0078,BILL-1014,24-01-2025,S2,Suburban,C138,New,P210,Snacks,Nachos,4,4.69,Cash,1,In-store
+TXN-2025-0079,BILL-1014,26-01-2025,S2,Suburban,C012,Loyal,P205,Snacks,Potato Chips,1,4.95,Cash,0.5,Online
+TXN-2025-0080,BILL-1014,19-01-2025,S1,Downtown,C015,Regular,P401,Beverages,Green Tea,4,4.81,Credit Card,0,In-store
+TXN-2025-0081,BILL-1014,25-01-2025,S1,Downtown,C030,Regular,P102,Beverages,Soda 500ml,3,5.21,Credit Card,0,Online
+TXN-2025-0082,BILL-1015,15-01-2025,S1,Downtown,C067,New,P301,Personal Care,Shampoo 250ml,1,7.88,UPI,0,In-store
+TXN-2025-0083,BILL-1016,23-01-2025,S3,Uptown,C014,Loyal,P101,Beverages,Orange Juice 1L,5,3.01,Credit Card,0,Online
+TXN-2025-0084,BILL-1017,15-01-2025,S2,Suburban,C085,Loyal,P210,Snacks,Nachos,2,6.03,UPI,0.5,In-store
+TXN-2025-0085,BILL-1017,17-01-2025,S3,Uptown,C056,Loyal,P501,Snacks,Chocolate Bar,5,8.3,Credit Card,0.5,In-store
+TXN-2025-0086,BILL-1017,15-01-2025,S3,Uptown,C066,Loyal,P303,Personal Care,Face Cream,1,6.82,UPI,0,Online
+TXN-2025-0087,BILL-1017,04-01-2025,S1,Downtown,C146,New,P303,Personal Care,Face Cream,4,5.57,Credit Card,0,Online
+TXN-2025-0088,BILL-1017,14-01-2025,S3,Uptown,C045,New,P501,Snacks,Chocolate Bar,4,6.46,Cash,0,In-store
+TXN-2025-0089,BILL-1017,19-01-2025,S1,Downtown,C140,Loyal,P210,Snacks,Nachos,3,2.84,Cash,1,Online
+TXN-2025-0090,BILL-1017,08-01-2025,S3,Uptown,C143,Loyal,P501,Snacks,Chocolate Bar,1,1.03,Cash,1,In-store
+TXN-2025-0091,BILL-1017,18-01-2025,S3,Uptown,C006,Loyal,P303,Personal Care,Face Cream,2,5.6,UPI,1,In-store
+TXN-2025-0092,BILL-1017,13-01-2025,S1,Downtown,C041,Regular,P101,Beverages,Orange Juice 1L,4,5.95,Credit Card,1,Online
+TXN-2025-0093,BILL-1017,22-01-2025,S1,Downtown,C047,Loyal,P210,Snacks,Nachos,1,5.31,Credit Card,1,In-store
+TXN-2025-0094,BILL-1017,24-01-2025,S2,Suburban,C090,Loyal,P401,Beverages,Green Tea,4,6.52,Credit Card,0.5,Online
+TXN-2025-0095,BILL-1017,28-01-2025,S2,Suburban,C116,Loyal,P301,Personal Care,Shampoo 250ml,3,8.86,Credit Card,1,In-store
+TXN-2025-0096,BILL-1018,30-01-2025,S3,Uptown,C024,Loyal,P101,Beverages,Orange Juice 1L,1,4.62,Credit Card,0.5,Online
+TXN-2025-0097,BILL-1019,13-01-2025,S2,Suburban,C081,Regular,P102,Beverages,Soda 500ml,4,3.01,Cash,1,Online
+TXN-2025-0098,BILL-1019,19-01-2025,S2,Suburban,C129,Loyal,P210,Snacks,Nachos,2,6.04,Credit Card,0.5,In-store
+TXN-2025-0099,BILL-1019,26-01-2025,S1,Downtown,C058,New,P205,Snacks,Potato Chips,4,9.38,Credit Card,0,Online
+TXN-2025-0100,BILL-1020,17-01-2025,S3,Uptown,C096,New,P102,Beverages,Soda 500ml,3,8.29,UPI,0,Online
+TXN-2025-0101,BILL-1020,27-01-2025,S2,Suburban,C100,Loyal,P302,Personal Care,Body Wash,1,9.05,Cash,0,Online
+TXN-2025-0102,BILL-1020,21-01-2025,S1,Downtown,C026,Regular,P501,Snacks,Chocolate Bar,4,9.23,Credit Card,1,Online
+TXN-2025-0103,BILL-1020,16-01-2025,S1,Downtown,C070,Regular,P101,Beverages,Orange Juice 1L,2,8.86,UPI,0,In-store
+TXN-2025-0104,BILL-1020,22-01-2025,S3,Uptown,C032,Loyal,P401,Beverages,Green Tea,5,5.25,UPI,1,In-store
+TXN-2025-0105,BILL-1020,11-01-2025,S2,Suburban,C135,Regular,P205,Snacks,Potato Chips,5,5.1,Cash,0.5,In-store
+TXN-2025-0106,BILL-1020,09-01-2025,S3,Uptown,C055,Loyal,P205,Snacks,Potato Chips,4,1.39,UPI,1,In-store
+TXN-2025-0107,BILL-1020,15-01-2025,S1,Downtown,C131,Loyal,P401,Beverages,Green Tea,5,3.21,Credit Card,0.5,In-store
+TXN-2025-0108,BILL-1020,16-01-2025,S2,Suburban,C114,New,P401,Beverages,Green Tea,2,3.62,UPI,0.5,Online
+TXN-2025-0109,BILL-1020,08-01-2025,S3,Uptown,C001,Loyal,P210,Snacks,Nachos,3,2.66,Credit Card,0,In-store
+TXN-2025-0110,BILL-1020,11-01-2025,S2,Suburban,C033,Loyal,P501,Snacks,Chocolate Bar,3,5.61,UPI,0.5,In-store
+TXN-2025-0111,BILL-1021,03-01-2025,S3,Uptown,C064,Loyal,P401,Beverages,Green Tea,3,8.61,Credit Card,0.5,In-store
+TXN-2025-0112,BILL-1021,30-01-2025,S3,Uptown,C052,Loyal,P401,Beverages,Green Tea,5,2.73,Credit Card,0.5,In-store
+TXN-2025-0113,BILL-1022,27-01-2025,S3,Uptown,C023,Regular,P401,Beverages,Green Tea,4,1.41,UPI,0.5,Online
+TXN-2025-0114,BILL-1023,18-01-2025,S3,Uptown,C048,Regular,P303,Personal Care,Face Cream,3,8.7,Credit Card,0,Online
+TXN-2025-0115,BILL-1023,15-01-2025,S2,Suburban,C093,Loyal,P302,Personal Care,Body Wash,5,7.04,Credit Card,1,In-store
+TXN-2025-0116,BILL-1023,26-01-2025,S1,Downtown,C066,Loyal,P401,Beverages,Green Tea,5,5.47,Credit Card,1,In-store
+TXN-2025-0117,BILL-1023,20-01-2025,S1,Downtown,C029,New,P501,Snacks,Chocolate Bar,1,5.8,Cash,0,In-store
+TXN-2025-0118,BILL-1024,13-01-2025,S3,Uptown,C034,New,P302,Personal Care,Body Wash,4,9.4,Cash,0,In-store
+TXN-2025-0119,BILL-1024,03-01-2025,S3,Uptown,C017,Loyal,P301,Personal Care,Shampoo 250ml,3,8.24,Cash,0,Online
+TXN-2025-0120,BILL-1024,01-01-2025,S3,Uptown,C030,New,P205,Snacks,Potato Chips,1,2.36,Cash,1,In-store
+TXN-2025-0121,BILL-1024,10-01-2025,S1,Downtown,C006,New,P302,Personal Care,Body Wash,5,1.24,Cash,1,Online
+TXN-2025-0122,BILL-1024,17-01-2025,S1,Downtown,C042,Regular,P101,Beverages,Orange Juice 1L,3,2.82,Credit Card,0.5,Online
+TXN-2025-0123,BILL-1025,21-01-2025,S3,Uptown,C007,New,P101,Beverages,Orange Juice 1L,2,2.6,Credit Card,1,In-store
+TXN-2025-0124,BILL-1025,21-01-2025,S3,Uptown,C130,Loyal,P102,Beverages,Soda 500ml,4,8.95,Cash,1,Online
+TXN-2025-0125,BILL-1025,26-01-2025,S2,Suburban,C104,New,P301,Personal Care,Shampoo 250ml,5,9.02,Cash,1,In-store
+TXN-2025-0126,BILL-1025,19-01-2025,S3,Uptown,C098,New,P210,Snacks,Nachos,1,9.68,Cash,0,Online
+TXN-2025-0127,BILL-1025,20-01-2025,S3,Uptown,C097,New,P210,Snacks,Nachos,5,4.85,Credit Card,0.5,In-store
+TXN-2025-0128,BILL-1025,20-01-2025,S2,Suburban,C090,New,P205,Snacks,Potato Chips,2,4.86,UPI,0.5,In-store
+TXN-2025-0129,BILL-1025,22-01-2025,S3,Uptown,C041,Loyal,P301,Personal Care,Shampoo 250ml,2,2.54,Cash,0,Online
+TXN-2025-0130,BILL-1025,01-01-2025,S3,Uptown,C036,Loyal,P401,Beverages,Green Tea,2,2.9,Credit Card,0.5,Online
+TXN-2025-0131,BILL-1026,20-01-2025,S1,Downtown,C010,New,P501,Snacks,Chocolate Bar,2,5.7,Credit Card,0,In-store
+TXN-2025-0132,BILL-1026,12-01-2025,S3,Uptown,C113,Loyal,P302,Personal Care,Body Wash,5,5.3,Credit Card,0.5,Online
+TXN-2025-0133,BILL-1026,29-01-2025,S2,Suburban,C032,Regular,P205,Snacks,Potato Chips,5,5.5,Credit Card,0.5,Online
+TXN-2025-0134,BILL-1026,08-01-2025,S3,Uptown,C009,New,P501,Snacks,Chocolate Bar,3,5.07,Cash,1,In-store
+TXN-2025-0135,BILL-1026,10-01-2025,S1,Downtown,C132,Loyal,P210,Snacks,Nachos,1,5.76,Cash,1,Online
+TXN-2025-0136,BILL-1026,10-01-2025,S1,Downtown,C091,New,P102,Beverages,Soda 500ml,3,9.37,UPI,1,Online
+TXN-2025-0137,BILL-1026,18-01-2025,S3,Uptown,C011,Regular,P301,Personal Care,Shampoo 250ml,3,2.13,UPI,0.5,In-store
+TXN-2025-0138,BILL-1026,08-01-2025,S2,Suburban,C132,Loyal,P501,Snacks,Chocolate Bar,2,2.03,Cash,0.5,In-store
+TXN-2025-0139,BILL-1026,19-01-2025,S2,Suburban,C127,Regular,P205,Snacks,Potato Chips,1,1.42,UPI,0,In-store
+TXN-2025-0140,BILL-1026,26-01-2025,S2,Suburban,C121,Regular,P101,Beverages,Orange Juice 1L,1,6.16,Cash,0,Online
+TXN-2025-0141,BILL-1026,19-01-2025,S3,Uptown,C090,Loyal,P205,Snacks,Potato Chips,5,1.1,Credit Card,0.5,Online
+TXN-2025-0142,BILL-1027,02-01-2025,S3,Uptown,C028,Regular,P303,Personal Care,Face Cream,3,9.74,Cash,1,Online
+TXN-2025-0143,BILL-1027,18-01-2025,S1,Downtown,C018,Regular,P401,Beverages,Green Tea,3,9.19,UPI,0,In-store
+TXN-2025-0144,BILL-1028,06-01-2025,S3,Uptown,C016,Regular,P101,Beverages,Orange Juice 1L,1,4.66,Cash,0.5,Online
+TXN-2025-0145,BILL-1028,14-01-2025,S1,Downtown,C022,New,P102,Beverages,Soda 500ml,3,1.34,Credit Card,0.5,Online
+TXN-2025-0146,BILL-1028,06-01-2025,S1,Downtown,C029,New,P302,Personal Care,Body Wash,5,8.88,UPI,0.5,Online
+TXN-2025-0147,BILL-1028,12-01-2025,S3,Uptown,C057,Regular,P101,Beverages,Orange Juice 1L,5,1.86,Cash,0.5,In-store
+TXN-2025-0148,BILL-1029,29-01-2025,S2,Suburban,C070,Regular,P401,Beverages,Green Tea,2,7.36,Credit Card,0.5,In-store
+TXN-2025-0149,BILL-1029,18-01-2025,S1,Downtown,C008,Loyal,P101,Beverages,Orange Juice 1L,5,3.45,Cash,0,Online
+TXN-2025-0150,BILL-1029,21-01-2025,S2,Suburban,C094,Loyal,P101,Beverages,Orange Juice 1L,2,2.63,UPI,1,Online
+TXN-2025-0151,BILL-1029,25-01-2025,S1,Downtown,C138,Regular,P102,Beverages,Soda 500ml,1,7.18,Cash,1,In-store
+TXN-2025-0152,BILL-1029,15-01-2025,S2,Suburban,C073,New,P210,Snacks,Nachos,3,6.47,Cash,1,Online
+TXN-2025-0153,BILL-1029,29-01-2025,S3,Uptown,C004,New,P102,Beverages,Soda 500ml,3,9.23,Cash,0.5,In-store
+TXN-2025-0154,BILL-1030,16-01-2025,S1,Downtown,C105,Loyal,P205,Snacks,Potato Chips,1,7.64,Credit Card,0.5,Online
+TXN-2025-0155,BILL-1030,20-01-2025,S3,Uptown,C145,Loyal,P301,Personal Care,Shampoo 250ml,1,1.16,UPI,0,In-store
+TXN-2025-0156,BILL-1031,19-01-2025,S1,Downtown,C008,Regular,P302,Personal Care,Body Wash,4,2.81,UPI,0.5,Online
+TXN-2025-0157,BILL-1031,13-01-2025,S2,Suburban,C128,Regular,P303,Personal Care,Face Cream,3,5.42,UPI,1,In-store
+TXN-2025-0158,BILL-1031,02-01-2025,S1,Downtown,C078,Loyal,P501,Snacks,Chocolate Bar,2,9.47,Credit Card,0.5,In-store
+TXN-2025-0159,BILL-1031,12-01-2025,S1,Downtown,C035,Regular,P303,Personal Care,Face Cream,5,7.77,Credit Card,0.5,Online
+TXN-2025-0160,BILL-1031,13-01-2025,S3,Uptown,C146,New,P303,Personal Care,Face Cream,4,1.74,Cash,1,In-store
+TXN-2025-0161,BILL-1031,25-01-2025,S1,Downtown,C039,Loyal,P401,Beverages,Green Tea,5,9.06,Cash,1,Online
+TXN-2025-0162,BILL-1032,04-01-2025,S1,Downtown,C080,Loyal,P501,Snacks,Chocolate Bar,2,5.57,UPI,0.5,Online
+TXN-2025-0163,BILL-1033,10-01-2025,S3,Uptown,C011,Regular,P205,Snacks,Potato Chips,2,5.86,Cash,0,In-store
+TXN-2025-0164,BILL-1033,10-01-2025,S3,Uptown,C107,Regular,P205,Snacks,Potato Chips,4,7.72,UPI,0,In-store
+TXN-2025-0165,BILL-1034,28-01-2025,S3,Uptown,C087,New,P301,Personal Care,Shampoo 250ml,1,2.27,Cash,1,In-store
+TXN-2025-0166,BILL-1034,06-01-2025,S1,Downtown,C067,Loyal,P205,Snacks,Potato Chips,2,8.41,Cash,0,Online
+TXN-2025-0167,BILL-1034,01-01-2025,S2,Suburban,C088,Regular,P401,Beverages,Green Tea,2,9.47,Cash,1,Online
+TXN-2025-0168,BILL-1034,04-01-2025,S3,Uptown,C086,Regular,P102,Beverages,Soda 500ml,1,9.17,UPI,1,In-store
+TXN-2025-0169,BILL-1034,06-01-2025,S3,Uptown,C087,Loyal,P210,Snacks,Nachos,5,9.45,Credit Card,0.5,Online
+TXN-2025-0170,BILL-1035,20-01-2025,S1,Downtown,C002,Loyal,P401,Beverages,Green Tea,1,2.33,UPI,0,Online
+TXN-2025-0171,BILL-1035,27-01-2025,S3,Uptown,C029,Regular,P205,Snacks,Potato Chips,5,2.86,Cash,0,Online
+TXN-2025-0172,BILL-1035,06-01-2025,S1,Downtown,C071,Regular,P101,Beverages,Orange Juice 1L,5,6.66,Cash,0,Online
+TXN-2025-0173,BILL-1035,31-01-2025,S2,Suburban,C066,Loyal,P301,Personal Care,Shampoo 250ml,2,9.85,UPI,1,Online
+TXN-2025-0174,BILL-1035,19-01-2025,S3,Uptown,C008,Regular,P101,Beverages,Orange Juice 1L,1,9.25,Credit Card,1,Online
+TXN-2025-0175,BILL-1035,08-01-2025,S1,Downtown,C075,Loyal,P303,Personal Care,Face Cream,2,5.8,Cash,0.5,Online
+TXN-2025-0176,BILL-1035,24-01-2025,S1,Downtown,C081,Regular,P401,Beverages,Green Tea,3,1.75,Credit Card,0.5,In-store
+TXN-2025-0177,BILL-1036,28-01-2025,S2,Suburban,C088,Loyal,P401,Beverages,Green Tea,1,7.43,Cash,0.5,Online
+TXN-2025-0178,BILL-1036,02-01-2025,S2,Suburban,C006,Regular,P301,Personal Care,Shampoo 250ml,5,7.89,Cash,1,Online
+TXN-2025-0179,BILL-1036,01-01-2025,S3,Uptown,C018,New,P302,Personal Care,Body Wash,5,1,Cash,1,In-store
+TXN-2025-0180,BILL-1036,06-01-2025,S3,Uptown,C141,New,P301,Personal Care,Shampoo 250ml,4,1.43,Credit Card,0.5,Online
+TXN-2025-0181,BILL-1036,17-01-2025,S2,Suburban,C094,New,P102,Beverages,Soda 500ml,5,4,Credit Card,1,Online
+TXN-2025-0182,BILL-1036,28-01-2025,S2,Suburban,C038,New,P205,Snacks,Potato Chips,4,6.68,Cash,0.5,In-store
+TXN-2025-0183,BILL-1036,18-01-2025,S3,Uptown,C103,New,P205,Snacks,Potato Chips,1,6.49,Credit Card,0,Online
+TXN-2025-0184,BILL-1036,23-01-2025,S3,Uptown,C123,New,P501,Snacks,Chocolate Bar,5,9.19,UPI,0,Online
+TXN-2025-0185,BILL-1036,04-01-2025,S2,Suburban,C017,New,P101,Beverages,Orange Juice 1L,2,8.47,Credit Card,0.5,In-store
+TXN-2025-0186,BILL-1037,31-01-2025,S2,Suburban,C134,New,P205,Snacks,Potato Chips,4,7.7,Credit Card,1,In-store
+TXN-2025-0187,BILL-1037,12-01-2025,S2,Suburban,C081,Loyal,P303,Personal Care,Face Cream,4,8.96,Credit Card,0.5,In-store
+TXN-2025-0188,BILL-1038,05-01-2025,S1,Downtown,C074,Loyal,P501,Snacks,Chocolate Bar,3,7.27,Credit Card,1,Online
+TXN-2025-0189,BILL-1038,31-01-2025,S2,Suburban,C065,Loyal,P401,Beverages,Green Tea,1,2.31,Credit Card,1,In-store
+TXN-2025-0190,BILL-1038,31-01-2025,S2,Suburban,C034,Regular,P205,Snacks,Potato Chips,2,3.59,UPI,1,In-store
+TXN-2025-0191,BILL-1038,13-01-2025,S3,Uptown,C081,New,P301,Personal Care,Shampoo 250ml,1,9.26,Cash,0.5,Online
+TXN-2025-0192,BILL-1038,28-01-2025,S2,Suburban,C091,Loyal,P401,Beverages,Green Tea,3,2.75,Cash,0,In-store
+TXN-2025-0193,BILL-1038,28-01-2025,S3,Uptown,C083,New,P302,Personal Care,Body Wash,5,7.46,UPI,0,In-store
+TXN-2025-0194,BILL-1038,08-01-2025,S3,Uptown,C076,Regular,P302,Personal Care,Body Wash,2,4.79,UPI,1,In-store
+TXN-2025-0195,BILL-1038,14-01-2025,S1,Downtown,C143,Loyal,P102,Beverages,Soda 500ml,5,1.38,Credit Card,0.5,Online
+TXN-2025-0196,BILL-1038,15-01-2025,S3,Uptown,C010,Regular,P102,Beverages,Soda 500ml,2,7.44,UPI,0.5,Online
+TXN-2025-0197,BILL-1038,16-01-2025,S3,Uptown,C012,Loyal,P210,Snacks,Nachos,5,2.15,Credit Card,0.5,In-store
+TXN-2025-0198,BILL-1038,11-01-2025,S3,Uptown,C113,Regular,P102,Beverages,Soda 500ml,4,5.37,Credit Card,0,In-store
+TXN-2025-0199,BILL-1038,22-01-2025,S2,Suburban,C137,Regular,P102,Beverages,Soda 500ml,5,8.27,Credit Card,0.5,Online
+TXN-2025-0200,BILL-1039,15-01-2025,S3,Uptown,C043,Loyal,P102,Beverages,Soda 500ml,3,1.83,Cash,0,Online
+TXN-2025-0201,BILL-1039,30-01-2025,S1,Downtown,C029,New,P303,Personal Care,Face Cream,4,4.17,Cash,0.5,Online
+TXN-2025-0202,BILL-1039,22-01-2025,S3,Uptown,C038,Loyal,P102,Beverages,Soda 500ml,5,3.26,Credit Card,1,In-store
+TXN-2025-0203,BILL-1039,01-01-2025,S2,Suburban,C060,Loyal,P303,Personal Care,Face Cream,4,6.88,Cash,0,Online
+TXN-2025-0204,BILL-1039,21-01-2025,S2,Suburban,C097,Regular,P101,Beverages,Orange Juice 1L,1,3.67,UPI,0,In-store
+TXN-2025-0205,BILL-1039,30-01-2025,S3,Uptown,C115,New,P302,Personal Care,Body Wash,1,4.31,Cash,0,In-store
+TXN-2025-0206,BILL-1039,29-01-2025,S1,Downtown,C136,New,P101,Beverages,Orange Juice 1L,1,1.36,Credit Card,0.5,Online
+TXN-2025-0207,BILL-1039,12-01-2025,S2,Suburban,C144,Loyal,P101,Beverages,Orange Juice 1L,1,7.37,UPI,1,Online
+TXN-2025-0208,BILL-1039,12-01-2025,S1,Downtown,C059,Regular,P302,Personal Care,Body Wash,5,1.38,UPI,0,In-store
+TXN-2025-0209,BILL-1040,24-01-2025,S1,Downtown,C067,Regular,P401,Beverages,Green Tea,1,3.77,UPI,0.5,Online
+TXN-2025-0210,BILL-1041,19-01-2025,S3,Uptown,C140,Loyal,P101,Beverages,Orange Juice 1L,2,1.27,Cash,1,In-store
+TXN-2025-0211,BILL-1041,06-01-2025,S1,Downtown,C146,New,P302,Personal Care,Body Wash,1,7.17,Cash,0,In-store
+TXN-2025-0212,BILL-1041,16-01-2025,S2,Suburban,C091,Loyal,P501,Snacks,Chocolate Bar,1,4.04,Cash,0,In-store
+TXN-2025-0213,BILL-1042,12-01-2025,S1,Downtown,C098,New,P210,Snacks,Nachos,4,5.43,UPI,0,In-store
+TXN-2025-0214,BILL-1043,29-01-2025,S1,Downtown,C098,Loyal,P301,Personal Care,Shampoo 250ml,4,5.37,Credit Card,0,Online
+TXN-2025-0215,BILL-1043,21-01-2025,S2,Suburban,C083,Regular,P302,Personal Care,Body Wash,3,9.32,UPI,0,In-store
+TXN-2025-0216,BILL-1043,19-01-2025,S3,Uptown,C108,Regular,P101,Beverages,Orange Juice 1L,1,3.02,UPI,1,Online
+TXN-2025-0217,BILL-1044,22-01-2025,S2,Suburban,C007,Loyal,P210,Snacks,Nachos,2,3.03,Credit Card,1,In-store
+TXN-2025-0218,BILL-1044,23-01-2025,S3,Uptown,C094,New,P102,Beverages,Soda 500ml,1,2.73,Credit Card,1,Online
+TXN-2025-0219,BILL-1044,21-01-2025,S1,Downtown,C054,New,P303,Personal Care,Face Cream,1,1.51,Cash,1,Online
+TXN-2025-0220,BILL-1044,20-01-2025,S1,Downtown,C060,Regular,P303,Personal Care,Face Cream,3,7.91,UPI,1,Online
+TXN-2025-0221,BILL-1044,21-01-2025,S2,Suburban,C111,Regular,P205,Snacks,Potato Chips,1,2.72,Credit Card,0.5,Online
+TXN-2025-0222,BILL-1044,09-01-2025,S2,Suburban,C115,Loyal,P101,Beverages,Orange Juice 1L,1,4.41,Cash,1,In-store
+TXN-2025-0223,BILL-1044,26-01-2025,S3,Uptown,C147,Regular,P102,Beverages,Soda 500ml,5,4.61,Credit Card,0,In-store
+TXN-2025-0224,BILL-1044,14-01-2025,S2,Suburban,C077,Loyal,P303,Personal Care,Face Cream,2,5.99,Credit Card,1,Online
+TXN-2025-0225,BILL-1044,25-01-2025,S2,Suburban,C052,Regular,P101,Beverages,Orange Juice 1L,4,4.97,Credit Card,0.5,Online
+TXN-2025-0226,BILL-1044,01-01-2025,S1,Downtown,C024,Loyal,P102,Beverages,Soda 500ml,5,8.44,UPI,0.5,In-store
+TXN-2025-0227,BILL-1044,13-01-2025,S3,Uptown,C136,Regular,P210,Snacks,Nachos,2,3.71,UPI,1,In-store
+TXN-2025-0228,BILL-1044,13-01-2025,S2,Suburban,C013,Regular,P401,Beverages,Green Tea,5,4.98,Credit Card,1,In-store
+TXN-2025-0229,BILL-1044,24-01-2025,S3,Uptown,C062,Loyal,P101,Beverages,Orange Juice 1L,2,5.79,Cash,1,Online
+TXN-2025-0230,BILL-1045,10-01-2025,S2,Suburban,C047,Regular,P303,Personal Care,Face Cream,5,6.46,Credit Card,1,In-store
+TXN-2025-0231,BILL-1045,25-01-2025,S2,Suburban,C081,New,P210,Snacks,Nachos,1,1.26,Cash,1,In-store
+TXN-2025-0232,BILL-1045,23-01-2025,S3,Uptown,C013,New,P401,Beverages,Green Tea,1,8.04,UPI,0.5,Online
+TXN-2025-0233,BILL-1045,20-01-2025,S2,Suburban,C148,New,P302,Personal Care,Body Wash,2,3.36,UPI,1,In-store
+TXN-2025-0234,BILL-1045,02-01-2025,S1,Downtown,C129,Regular,P102,Beverages,Soda 500ml,5,1.37,UPI,0,Online
+TXN-2025-0235,BILL-1046,31-01-2025,S1,Downtown,C050,Regular,P302,Personal Care,Body Wash,5,2.07,Cash,0.5,In-store
+TXN-2025-0236,BILL-1046,28-01-2025,S3,Uptown,C041,Loyal,P501,Snacks,Chocolate Bar,4,3.64,Credit Card,0.5,Online
+TXN-2025-0237,BILL-1046,27-01-2025,S3,Uptown,C067,Regular,P302,Personal Care,Body Wash,1,3.44,Cash,0,Online
+TXN-2025-0238,BILL-1046,11-01-2025,S3,Uptown,C080,New,P301,Personal Care,Shampoo 250ml,5,4.37,Credit Card,0,Online
+TXN-2025-0239,BILL-1046,28-01-2025,S3,Uptown,C127,Loyal,P210,Snacks,Nachos,4,9.54,Cash,1,In-store
+TXN-2025-0240,BILL-1046,31-01-2025,S1,Downtown,C054,Regular,P101,Beverages,Orange Juice 1L,2,2.77,Credit Card,1,Online
+TXN-2025-0241,BILL-1046,04-01-2025,S3,Uptown,C113,Loyal,P102,Beverages,Soda 500ml,2,8.12,Credit Card,0,In-store
+TXN-2025-0242,BILL-1046,16-01-2025,S1,Downtown,C004,Loyal,P401,Beverages,Green Tea,4,1.3,Credit Card,0.5,In-store
+TXN-2025-0243,BILL-1046,03-01-2025,S1,Downtown,C131,Regular,P102,Beverages,Soda 500ml,1,6.58,Cash,0.5,Online
+TXN-2025-0244,BILL-1046,29-01-2025,S2,Suburban,C108,Regular,P501,Snacks,Chocolate Bar,2,8.24,Cash,1,In-store
+TXN-2025-0245,BILL-1047,14-01-2025,S2,Suburban,C083,Regular,P302,Personal Care,Body Wash,3,2.14,Cash,1,Online
+TXN-2025-0246,BILL-1047,04-01-2025,S2,Suburban,C118,Regular,P205,Snacks,Potato Chips,5,8.91,Cash,1,Online
+TXN-2025-0247,BILL-1047,06-01-2025,S1,Downtown,C051,Loyal,P501,Snacks,Chocolate Bar,4,3.3,UPI,1,In-store
+TXN-2025-0248,BILL-1047,28-01-2025,S3,Uptown,C018,New,P102,Beverages,Soda 500ml,2,7.51,UPI,1,Online
+TXN-2025-0249,BILL-1047,09-01-2025,S2,Suburban,C037,Regular,P302,Personal Care,Body Wash,1,9.24,Credit Card,1,Online
+TXN-2025-0250,BILL-1047,14-01-2025,S1,Downtown,C055,New,P210,Snacks,Nachos,4,2.56,Credit Card,0.5,Online
+TXN-2025-0251,BILL-1047,09-01-2025,S3,Uptown,C034,Loyal,P303,Personal Care,Face Cream,1,1.67,UPI,0.5,Online
+TXN-2025-0252,BILL-1047,05-01-2025,S3,Uptown,C074,Loyal,P101,Beverages,Orange Juice 1L,2,2.55,Credit Card,1,In-store
+TXN-2025-0253,BILL-1047,22-01-2025,S3,Uptown,C096,New,P501,Snacks,Chocolate Bar,1,9.43,Credit Card,0,Online
+TXN-2025-0254,BILL-1048,27-01-2025,S2,Suburban,C147,Regular,P102,Beverages,Soda 500ml,1,5.22,Cash,0.5,In-store
+TXN-2025-0255,BILL-1048,03-01-2025,S2,Suburban,C034,New,P302,Personal Care,Body Wash,5,1.29,Cash,1,In-store
+TXN-2025-0256,BILL-1048,01-01-2025,S2,Suburban,C089,New,P301,Personal Care,Shampoo 250ml,3,9.38,Credit Card,1,In-store
+TXN-2025-0257,BILL-1048,01-01-2025,S3,Uptown,C070,New,P102,Beverages,Soda 500ml,3,2.68,Cash,0.5,Online
+TXN-2025-0258,BILL-1049,24-01-2025,S3,Uptown,C096,Regular,P302,Personal Care,Body Wash,3,1.96,UPI,1,Online
+TXN-2025-0259,BILL-1049,10-01-2025,S3,Uptown,C049,Regular,P102,Beverages,Soda 500ml,2,3.64,UPI,0.5,In-store
+TXN-2025-0260,BILL-1050,08-01-2025,S3,Uptown,C002,New,P210,Snacks,Nachos,1,9.87,Cash,0,In-store
+TXN-2025-0261,BILL-1050,12-01-2025,S3,Uptown,C008,New,P501,Snacks,Chocolate Bar,2,3.97,UPI,0.5,Online
+TXN-2025-0262,BILL-1050,25-01-2025,S3,Uptown,C097,New,P302,Personal Care,Body Wash,4,3.65,Credit Card,0.5,In-store
+TXN-2025-0263,BILL-1050,20-01-2025,S2,Suburban,C033,Regular,P401,Beverages,Green Tea,3,6.15,UPI,1,In-store
+TXN-2025-0264,BILL-1050,29-01-2025,S3,Uptown,C097,Regular,P501,Snacks,Chocolate Bar,5,3.43,Credit Card,0.5,In-store
+TXN-2025-0265,BILL-1051,21-01-2025,S1,Downtown,C067,New,P205,Snacks,Potato Chips,1,6.45,Credit Card,0.5,Online
+TXN-2025-0266,BILL-1051,08-01-2025,S2,Suburban,C001,Loyal,P102,Beverages,Soda 500ml,5,2.6,Cash,0,Online
+TXN-2025-0267,BILL-1051,15-01-2025,S1,Downtown,C053,Loyal,P501,Snacks,Chocolate Bar,4,9.81,Credit Card,0.5,Online
+TXN-2025-0268,BILL-1051,05-01-2025,S3,Uptown,C144,Loyal,P102,Beverages,Soda 500ml,5,6.74,UPI,0.5,In-store
+TXN-2025-0269,BILL-1051,22-01-2025,S1,Downtown,C149,New,P210,Snacks,Nachos,3,2.41,UPI,0.5,Online
+TXN-2025-0270,BILL-1051,12-01-2025,S2,Suburban,C137,New,P302,Personal Care,Body Wash,2,3.26,Cash,0.5,Online
+TXN-2025-0271,BILL-1051,29-01-2025,S2,Suburban,C088,Loyal,P102,Beverages,Soda 500ml,2,9.75,Credit Card,0.5,Online
+TXN-2025-0272,BILL-1051,27-01-2025,S1,Downtown,C097,Loyal,P303,Personal Care,Face Cream,4,2.68,Cash,0,In-store
+TXN-2025-0273,BILL-1051,13-01-2025,S3,Uptown,C130,Loyal,P101,Beverages,Orange Juice 1L,4,1.91,UPI,0.5,Online
+TXN-2025-0274,BILL-1051,19-01-2025,S2,Suburban,C020,Regular,P501,Snacks,Chocolate Bar,2,8.84,UPI,0.5,Online
+TXN-2025-0275,BILL-1052,14-01-2025,S3,Uptown,C032,New,P102,Beverages,Soda 500ml,1,7.44,Cash,0,In-store
+TXN-2025-0276,BILL-1052,21-01-2025,S1,Downtown,C038,New,P401,Beverages,Green Tea,4,6.73,Credit Card,0,In-store
+TXN-2025-0277,BILL-1052,14-01-2025,S1,Downtown,C026,New,P205,Snacks,Potato Chips,3,7.78,Cash,1,Online
+TXN-2025-0278,BILL-1052,19-01-2025,S1,Downtown,C034,Regular,P301,Personal Care,Shampoo 250ml,2,7.49,UPI,0,In-store
+TXN-2025-0279,BILL-1052,26-01-2025,S2,Suburban,C120,New,P102,Beverages,Soda 500ml,4,7.58,Cash,0,In-store
+TXN-2025-0280,BILL-1052,14-01-2025,S3,Uptown,C067,Regular,P302,Personal Care,Body Wash,3,4.66,Credit Card,0,In-store
+TXN-2025-0281,BILL-1052,31-01-2025,S1,Downtown,C044,New,P401,Beverages,Green Tea,5,6.01,Credit Card,0,Online
+TXN-2025-0282,BILL-1052,24-01-2025,S3,Uptown,C045,Loyal,P302,Personal Care,Body Wash,1,7.24,Cash,1,In-store
+TXN-2025-0283,BILL-1052,24-01-2025,S1,Downtown,C132,Loyal,P101,Beverages,Orange Juice 1L,2,4.15,Cash,0,In-store
+TXN-2025-0284,BILL-1053,11-01-2025,S2,Suburban,C024,Regular,P101,Beverages,Orange Juice 1L,5,3.23,Credit Card,1,In-store
+TXN-2025-0285,BILL-1053,25-01-2025,S3,Uptown,C085,Loyal,P210,Snacks,Nachos,5,3.16,Cash,0.5,Online
+TXN-2025-0286,BILL-1053,07-01-2025,S3,Uptown,C139,Loyal,P102,Beverages,Soda 500ml,5,4.56,Credit Card,0.5,In-store
+TXN-2025-0287,BILL-1054,16-01-2025,S1,Downtown,C056,Regular,P210,Snacks,Nachos,1,2.05,UPI,0.5,Online
+TXN-2025-0288,BILL-1054,01-01-2025,S1,Downtown,C022,Loyal,P205,Snacks,Potato Chips,5,8.4,Cash,0,Online
+TXN-2025-0289,BILL-1054,23-01-2025,S2,Suburban,C124,Regular,P102,Beverages,Soda 500ml,2,5.12,UPI,0,In-store
+TXN-2025-0290,BILL-1054,30-01-2025,S2,Suburban,C089,Loyal,P301,Personal Care,Shampoo 250ml,3,5.48,Credit Card,0,Online
+TXN-2025-0291,BILL-1054,27-01-2025,S3,Uptown,C062,Regular,P303,Personal Care,Face Cream,3,4.76,UPI,0.5,Online
+TXN-2025-0292,BILL-1055,20-01-2025,S1,Downtown,C096,New,P102,Beverages,Soda 500ml,5,8.41,UPI,1,In-store
+TXN-2025-0293,BILL-1056,10-01-2025,S3,Uptown,C129,Loyal,P302,Personal Care,Body Wash,2,8.32,Cash,0,In-store
+TXN-2025-0294,BILL-1056,16-01-2025,S1,Downtown,C019,Loyal,P501,Snacks,Chocolate Bar,2,5.93,Credit Card,0.5,In-store
+TXN-2025-0295,BILL-1056,10-01-2025,S2,Suburban,C093,New,P501,Snacks,Chocolate Bar,3,8.8,Cash,0,Online
+TXN-2025-0296,BILL-1056,18-01-2025,S2,Suburban,C118,Loyal,P210,Snacks,Nachos,4,5.44,Cash,0.5,In-store
+TXN-2025-0297,BILL-1056,03-01-2025,S2,Suburban,C039,New,P401,Beverages,Green Tea,3,9.52,Credit Card,0,Online
+TXN-2025-0298,BILL-1056,21-01-2025,S1,Downtown,C120,Loyal,P401,Beverages,Green Tea,5,1.18,Cash,1,Online
+TXN-2025-0299,BILL-1056,14-01-2025,S3,Uptown,C070,Regular,P210,Snacks,Nachos,3,5.73,Credit Card,0.5,Online
+TXN-2025-0300,BILL-1056,18-01-2025,S3,Uptown,C056,New,P401,Beverages,Green Tea,1,8.9,Cash,0.5,Online
+TXN-2025-0301,BILL-1057,01-01-2025,S1,Downtown,C118,Loyal,P301,Personal Care,Shampoo 250ml,1,6.38,Credit Card,0.5,Online
+TXN-2025-0302,BILL-1057,10-01-2025,S2,Suburban,C101,New,P401,Beverages,Green Tea,5,6.27,UPI,0,In-store
+TXN-2025-0303,BILL-1058,25-01-2025,S1,Downtown,C084,Loyal,P102,Beverages,Soda 500ml,2,3.14,Credit Card,0.5,In-store
+TXN-2025-0304,BILL-1058,04-01-2025,S2,Suburban,C028,Regular,P210,Snacks,Nachos,5,6.44,Cash,0,In-store
+TXN-2025-0305,BILL-1059,28-01-2025,S3,Uptown,C084,Loyal,P302,Personal Care,Body Wash,1,3.28,UPI,0.5,Online
+TXN-2025-0306,BILL-1060,15-01-2025,S1,Downtown,C144,Regular,P210,Snacks,Nachos,3,8.08,Credit Card,0.5,In-store
+TXN-2025-0307,BILL-1061,08-01-2025,S3,Uptown,C058,Loyal,P210,Snacks,Nachos,1,5.58,UPI,1,Online
+TXN-2025-0308,BILL-1061,05-01-2025,S3,Uptown,C114,Regular,P102,Beverages,Soda 500ml,4,3.69,Cash,1,In-store
+TXN-2025-0309,BILL-1061,09-01-2025,S1,Downtown,C002,New,P102,Beverages,Soda 500ml,1,1.29,Cash,0,In-store
+TXN-2025-0310,BILL-1061,27-01-2025,S1,Downtown,C057,New,P303,Personal Care,Face Cream,3,7.94,Cash,1,In-store
+TXN-2025-0311,BILL-1061,04-01-2025,S1,Downtown,C028,New,P205,Snacks,Potato Chips,2,3.12,UPI,1,In-store
+TXN-2025-0312,BILL-1061,10-01-2025,S1,Downtown,C020,Loyal,P205,Snacks,Potato Chips,3,3.31,Credit Card,0.5,Online
+TXN-2025-0313,BILL-1061,28-01-2025,S3,Uptown,C139,New,P401,Beverages,Green Tea,2,2.38,Credit Card,1,Online
+TXN-2025-0314,BILL-1061,22-01-2025,S3,Uptown,C121,New,P401,Beverages,Green Tea,4,8.87,Cash,1,Online
+TXN-2025-0315,BILL-1061,10-01-2025,S2,Suburban,C006,New,P102,Beverages,Soda 500ml,5,1.94,UPI,0,Online
+TXN-2025-0316,BILL-1061,12-01-2025,S3,Uptown,C125,Loyal,P205,Snacks,Potato Chips,2,5.24,UPI,0,In-store
+TXN-2025-0317,BILL-1061,24-01-2025,S2,Suburban,C091,Regular,P102,Beverages,Soda 500ml,1,1.2,Credit Card,0.5,Online
+TXN-2025-0318,BILL-1061,20-01-2025,S2,Suburban,C104,New,P301,Personal Care,Shampoo 250ml,5,4.09,Credit Card,0.5,In-store
+TXN-2025-0319,BILL-1061,25-01-2025,S1,Downtown,C094,Loyal,P102,Beverages,Soda 500ml,3,4.2,Cash,0,Online
+TXN-2025-0320,BILL-1061,24-01-2025,S3,Uptown,C107,Regular,P501,Snacks,Chocolate Bar,3,8.27,Cash,0,In-store
+TXN-2025-0321,BILL-1062,10-01-2025,S1,Downtown,C088,New,P302,Personal Care,Body Wash,1,2.42,UPI,1,In-store
+TXN-2025-0322,BILL-1062,23-01-2025,S1,Downtown,C037,New,P102,Beverages,Soda 500ml,4,9.69,Credit Card,1,Online
+TXN-2025-0323,BILL-1063,16-01-2025,S1,Downtown,C101,Regular,P205,Snacks,Potato Chips,4,1.37,UPI,0,Online
+TXN-2025-0324,BILL-1063,30-01-2025,S3,Uptown,C091,Loyal,P301,Personal Care,Shampoo 250ml,3,5.28,UPI,1,Online
+TXN-2025-0325,BILL-1063,20-01-2025,S3,Uptown,C098,New,P301,Personal Care,Shampoo 250ml,5,3.87,UPI,1,Online
+TXN-2025-0326,BILL-1063,30-01-2025,S2,Suburban,C120,Loyal,P205,Snacks,Potato Chips,1,3.17,Credit Card,0,In-store
+TXN-2025-0327,BILL-1063,22-01-2025,S3,Uptown,C045,New,P501,Snacks,Chocolate Bar,5,7.65,Cash,0.5,Online
+TXN-2025-0328,BILL-1063,25-01-2025,S1,Downtown,C090,Loyal,P301,Personal Care,Shampoo 250ml,4,7.43,Credit Card,0.5,In-store
+TXN-2025-0329,BILL-1063,30-01-2025,S2,Suburban,C150,Loyal,P102,Beverages,Soda 500ml,1,1.55,Cash,0,Online
+TXN-2025-0330,BILL-1063,12-01-2025,S2,Suburban,C083,Regular,P301,Personal Care,Shampoo 250ml,3,6.46,Credit Card,0.5,Online
+TXN-2025-0331,BILL-1063,07-01-2025,S3,Uptown,C142,New,P501,Snacks,Chocolate Bar,5,4.36,UPI,0,Online
+TXN-2025-0332,BILL-1063,27-01-2025,S2,Suburban,C084,Regular,P101,Beverages,Orange Juice 1L,1,6.67,Cash,0.5,Online
+TXN-2025-0333,BILL-1063,25-01-2025,S3,Uptown,C025,Loyal,P501,Snacks,Chocolate Bar,5,3.66,Credit Card,0.5,Online
+TXN-2025-0334,BILL-1063,11-01-2025,S1,Downtown,C119,New,P205,Snacks,Potato Chips,2,7.62,Cash,1,In-store
+TXN-2025-0335,BILL-1063,26-01-2025,S1,Downtown,C080,Loyal,P102,Beverages,Soda 500ml,4,3.49,UPI,1,In-store
+TXN-2025-0336,BILL-1063,04-01-2025,S1,Downtown,C143,Loyal,P301,Personal Care,Shampoo 250ml,1,8.94,Cash,1,In-store
+TXN-2025-0337,BILL-1063,08-01-2025,S1,Downtown,C111,New,P205,Snacks,Potato Chips,4,9.97,Credit Card,0,Online
+TXN-2025-0338,BILL-1064,21-01-2025,S3,Uptown,C141,Regular,P501,Snacks,Chocolate Bar,4,1.07,UPI,0.5,In-store
+TXN-2025-0339,BILL-1064,27-01-2025,S2,Suburban,C130,Loyal,P102,Beverages,Soda 500ml,2,9.97,Credit Card,1,In-store
+TXN-2025-0340,BILL-1064,03-01-2025,S2,Suburban,C104,New,P102,Beverages,Soda 500ml,1,2.29,UPI,0.5,Online
+TXN-2025-0341,BILL-1064,07-01-2025,S1,Downtown,C110,Loyal,P301,Personal Care,Shampoo 250ml,3,4.24,Credit Card,0,Online
+TXN-2025-0342,BILL-1064,09-01-2025,S1,Downtown,C090,New,P102,Beverages,Soda 500ml,4,5.9,Credit Card,0.5,In-store
+TXN-2025-0343,BILL-1064,28-01-2025,S1,Downtown,C082,Regular,P101,Beverages,Orange Juice 1L,2,2,UPI,0.5,In-store
+TXN-2025-0344,BILL-1065,08-01-2025,S3,Uptown,C071,New,P501,Snacks,Chocolate Bar,2,1.72,Credit Card,1,In-store
+TXN-2025-0345,BILL-1065,11-01-2025,S1,Downtown,C113,Regular,P301,Personal Care,Shampoo 250ml,2,6.32,Credit Card,0,Online
+TXN-2025-0346,BILL-1066,07-01-2025,S3,Uptown,C032,Regular,P301,Personal Care,Shampoo 250ml,1,8.99,Cash,0.5,In-store
+TXN-2025-0347,BILL-1066,04-01-2025,S3,Uptown,C030,Regular,P303,Personal Care,Face Cream,2,7.25,Credit Card,1,Online
+TXN-2025-0348,BILL-1066,28-01-2025,S1,Downtown,C084,Regular,P501,Snacks,Chocolate Bar,4,7.16,Credit Card,1,Online
+TXN-2025-0349,BILL-1066,08-01-2025,S1,Downtown,C108,Loyal,P303,Personal Care,Face Cream,3,4.09,Credit Card,0,In-store
+TXN-2025-0350,BILL-1066,09-01-2025,S2,Suburban,C034,Loyal,P205,Snacks,Potato Chips,1,2.9,Cash,1,Online
+TXN-2025-0351,BILL-1066,04-01-2025,S3,Uptown,C130,Loyal,P102,Beverages,Soda 500ml,2,8.26,Cash,0.5,In-store
+TXN-2025-0352,BILL-1066,29-01-2025,S1,Downtown,C045,Loyal,P302,Personal Care,Body Wash,3,7.91,Credit Card,0,In-store
+TXN-2025-0353,BILL-1067,29-01-2025,S1,Downtown,C148,Regular,P501,Snacks,Chocolate Bar,2,2.79,UPI,0.5,Online
+TXN-2025-0354,BILL-1067,04-01-2025,S2,Suburban,C047,New,P102,Beverages,Soda 500ml,1,7.67,UPI,0,In-store
+TXN-2025-0355,BILL-1067,30-01-2025,S3,Uptown,C137,New,P301,Personal Care,Shampoo 250ml,2,7,Cash,0.5,Online
+TXN-2025-0356,BILL-1067,26-01-2025,S3,Uptown,C102,Regular,P301,Personal Care,Shampoo 250ml,2,1.2,Cash,0,Online
+TXN-2025-0357,BILL-1067,31-01-2025,S2,Suburban,C064,Loyal,P301,Personal Care,Shampoo 250ml,2,2.54,UPI,1,Online
+TXN-2025-0358,BILL-1067,14-01-2025,S1,Downtown,C081,Loyal,P205,Snacks,Potato Chips,4,2.31,Credit Card,1,In-store
+TXN-2025-0359,BILL-1067,17-01-2025,S2,Suburban,C013,New,P501,Snacks,Chocolate Bar,3,2.24,Cash,1,Online
+TXN-2025-0360,BILL-1067,15-01-2025,S1,Downtown,C019,Regular,P205,Snacks,Potato Chips,5,9.57,Cash,0.5,In-store
+TXN-2025-0361,BILL-1067,03-01-2025,S3,Uptown,C041,Loyal,P401,Beverages,Green Tea,2,4.74,Credit Card,0.5,Online
+TXN-2025-0362,BILL-1067,20-01-2025,S3,Uptown,C014,Loyal,P302,Personal Care,Body Wash,1,5.7,Cash,1,Online
+TXN-2025-0363,BILL-1067,07-01-2025,S1,Downtown,C015,Loyal,P301,Personal Care,Shampoo 250ml,4,5.66,Credit Card,1,In-store
+TXN-2025-0364,BILL-1067,30-01-2025,S3,Uptown,C014,Regular,P303,Personal Care,Face Cream,1,3.97,UPI,1,Online
+TXN-2025-0365,BILL-1067,21-01-2025,S3,Uptown,C130,New,P210,Snacks,Nachos,2,7.78,Credit Card,0.5,Online
+TXN-2025-0366,BILL-1067,09-01-2025,S2,Suburban,C149,Loyal,P303,Personal Care,Face Cream,4,9.8,Credit Card,1,Online
+TXN-2025-0367,BILL-1067,19-01-2025,S1,Downtown,C124,New,P501,Snacks,Chocolate Bar,5,2.72,UPI,1,Online
+TXN-2025-0368,BILL-1068,13-01-2025,S1,Downtown,C070,Loyal,P501,Snacks,Chocolate Bar,3,7.26,Credit Card,0,In-store
+TXN-2025-0369,BILL-1068,05-01-2025,S3,Uptown,C053,New,P210,Snacks,Nachos,4,9.46,UPI,1,In-store
+TXN-2025-0370,BILL-1069,05-01-2025,S2,Suburban,C150,Regular,P205,Snacks,Potato Chips,2,4.74,Credit Card,0,In-store
+TXN-2025-0371,BILL-1070,24-01-2025,S3,Uptown,C002,Loyal,P102,Beverages,Soda 500ml,2,4.78,Cash,0,In-store
+TXN-2025-0372,BILL-1070,15-01-2025,S1,Downtown,C099,New,P401,Beverages,Green Tea,3,8.01,Cash,0.5,Online
+TXN-2025-0373,BILL-1071,27-01-2025,S2,Suburban,C023,Regular,P401,Beverages,Green Tea,5,1.1,UPI,1,Online
+TXN-2025-0374,BILL-1071,01-01-2025,S1,Downtown,C050,New,P101,Beverages,Orange Juice 1L,4,3.57,Cash,1,Online
+TXN-2025-0375,BILL-1071,24-01-2025,S2,Suburban,C046,New,P302,Personal Care,Body Wash,2,9.42,UPI,0.5,Online
+TXN-2025-0376,BILL-1071,15-01-2025,S1,Downtown,C035,Regular,P501,Snacks,Chocolate Bar,4,9.82,UPI,1,In-store
+TXN-2025-0377,BILL-1071,04-01-2025,S1,Downtown,C066,Regular,P501,Snacks,Chocolate Bar,5,7.91,Cash,0.5,In-store
+TXN-2025-0378,BILL-1071,06-01-2025,S3,Uptown,C133,Loyal,P205,Snacks,Potato Chips,3,1.91,Cash,1,Online
+TXN-2025-0379,BILL-1071,18-01-2025,S3,Uptown,C096,Loyal,P301,Personal Care,Shampoo 250ml,3,1.85,Credit Card,1,In-store
+TXN-2025-0380,BILL-1071,19-01-2025,S1,Downtown,C039,Loyal,P102,Beverages,Soda 500ml,5,9.84,Credit Card,0.5,In-store
+TXN-2025-0381,BILL-1072,16-01-2025,S2,Suburban,C027,Regular,P102,Beverages,Soda 500ml,5,2.24,Cash,0.5,In-store
+TXN-2025-0382,BILL-1072,24-01-2025,S2,Suburban,C139,New,P401,Beverages,Green Tea,5,9.16,Cash,0,In-store
+TXN-2025-0383,BILL-1072,04-01-2025,S3,Uptown,C096,Loyal,P101,Beverages,Orange Juice 1L,1,9.94,Credit Card,0.5,Online
+TXN-2025-0384,BILL-1072,18-01-2025,S2,Suburban,C054,Loyal,P205,Snacks,Potato Chips,2,5.6,Cash,0,Online
+TXN-2025-0385,BILL-1072,09-01-2025,S3,Uptown,C002,Loyal,P101,Beverages,Orange Juice 1L,5,3.97,Credit Card,0,In-store
+TXN-2025-0386,BILL-1073,23-01-2025,S2,Suburban,C131,Loyal,P102,Beverages,Soda 500ml,3,2.94,Cash,1,Online
+TXN-2025-0387,BILL-1074,19-01-2025,S3,Uptown,C022,New,P102,Beverages,Soda 500ml,1,3.96,UPI,1,Online
+TXN-2025-0388,BILL-1075,24-01-2025,S2,Suburban,C010,New,P303,Personal Care,Face Cream,1,2.62,Credit Card,0.5,Online
+TXN-2025-0389,BILL-1075,27-01-2025,S3,Uptown,C082,Regular,P302,Personal Care,Body Wash,1,3.65,Cash,0,Online
+TXN-2025-0390,BILL-1075,12-01-2025,S3,Uptown,C024,Regular,P302,Personal Care,Body Wash,1,4.15,UPI,0.5,Online
+TXN-2025-0391,BILL-1075,31-01-2025,S3,Uptown,C007,New,P101,Beverages,Orange Juice 1L,5,2.4,UPI,0,Online
+TXN-2025-0392,BILL-1075,08-01-2025,S1,Downtown,C141,Loyal,P303,Personal Care,Face Cream,1,9,Cash,0.5,Online
+TXN-2025-0393,BILL-1075,10-01-2025,S1,Downtown,C093,Regular,P102,Beverages,Soda 500ml,4,3.46,Credit Card,0.5,In-store
+TXN-2025-0394,BILL-1075,01-01-2025,S1,Downtown,C056,Loyal,P102,Beverages,Soda 500ml,4,3.32,Credit Card,0.5,Online
+TXN-2025-0395,BILL-1076,28-01-2025,S3,Uptown,C057,New,P101,Beverages,Orange Juice 1L,1,3.9,UPI,0,Online
+TXN-2025-0396,BILL-1076,13-01-2025,S2,Suburban,C149,Regular,P501,Snacks,Chocolate Bar,3,1.48,UPI,0,In-store
+TXN-2025-0397,BILL-1077,25-01-2025,S2,Suburban,C103,Regular,P102,Beverages,Soda 500ml,1,7.53,Cash,0.5,Online
+TXN-2025-0398,BILL-1077,04-01-2025,S3,Uptown,C112,New,P210,Snacks,Nachos,4,6.83,Credit Card,0,Online
+TXN-2025-0399,BILL-1078,09-01-2025,S1,Downtown,C082,New,P205,Snacks,Potato Chips,2,3.74,UPI,0.5,Online
+TXN-2025-0400,BILL-1078,03-01-2025,S2,Suburban,C146,New,P501,Snacks,Chocolate Bar,4,9.16,UPI,0,In-store
+TXN-2025-0401,BILL-1078,01-01-2025,S3,Uptown,C147,Regular,P501,Snacks,Chocolate Bar,5,6.61,Credit Card,0,Online
+TXN-2025-0402,BILL-1078,10-01-2025,S2,Suburban,C087,New,P501,Snacks,Chocolate Bar,3,8.67,Cash,0,Online
+TXN-2025-0403,BILL-1078,01-01-2025,S2,Suburban,C134,New,P301,Personal Care,Shampoo 250ml,1,1.14,UPI,0.5,In-store
+TXN-2025-0404,BILL-1079,15-01-2025,S3,Uptown,C051,Regular,P501,Snacks,Chocolate Bar,3,2.59,Credit Card,0,Online
+TXN-2025-0405,BILL-1079,18-01-2025,S2,Suburban,C074,Regular,P302,Personal Care,Body Wash,3,3.39,Cash,0,In-store
+TXN-2025-0406,BILL-1080,03-01-2025,S2,Suburban,C146,Loyal,P501,Snacks,Chocolate Bar,3,9.35,UPI,0.5,Online
+TXN-2025-0407,BILL-1080,20-01-2025,S3,Uptown,C007,Regular,P401,Beverages,Green Tea,4,1.68,UPI,0.5,Online
+TXN-2025-0408,BILL-1080,14-01-2025,S3,Uptown,C117,Loyal,P302,Personal Care,Body Wash,1,9.19,Credit Card,1,In-store
+TXN-2025-0409,BILL-1080,21-01-2025,S3,Uptown,C079,New,P205,Snacks,Potato Chips,1,5.27,Credit Card,0,In-store
+TXN-2025-0410,BILL-1080,24-01-2025,S3,Uptown,C018,New,P302,Personal Care,Body Wash,1,3.78,UPI,0.5,In-store
+TXN-2025-0411,BILL-1080,24-01-2025,S2,Suburban,C080,Regular,P210,Snacks,Nachos,3,6.88,Credit Card,0,In-store
+TXN-2025-0412,BILL-1080,10-01-2025,S2,Suburban,C137,New,P102,Beverages,Soda 500ml,2,6.37,Credit Card,0,Online
+TXN-2025-0413,BILL-1080,25-01-2025,S3,Uptown,C115,Regular,P102,Beverages,Soda 500ml,1,3.5,Cash,1,Online
+TXN-2025-0414,BILL-1081,26-01-2025,S1,Downtown,C099,Regular,P303,Personal Care,Face Cream,5,4.17,Cash,1,Online
+TXN-2025-0415,BILL-1081,15-01-2025,S1,Downtown,C149,Loyal,P501,Snacks,Chocolate Bar,5,1.65,Cash,1,In-store
+TXN-2025-0416,BILL-1081,21-01-2025,S1,Downtown,C113,Regular,P501,Snacks,Chocolate Bar,4,8.57,UPI,0.5,Online
+TXN-2025-0417,BILL-1081,13-01-2025,S1,Downtown,C094,New,P303,Personal Care,Face Cream,1,3.68,UPI,0,In-store
+TXN-2025-0418,BILL-1081,27-01-2025,S3,Uptown,C047,Loyal,P102,Beverages,Soda 500ml,1,9.51,Credit Card,1,In-store
+TXN-2025-0419,BILL-1082,05-01-2025,S2,Suburban,C123,New,P101,Beverages,Orange Juice 1L,5,6.96,Cash,0,Online
+TXN-2025-0420,BILL-1082,14-01-2025,S3,Uptown,C103,New,P102,Beverages,Soda 500ml,5,9.24,Cash,0,Online
+TXN-2025-0421,BILL-1082,09-01-2025,S2,Suburban,C016,Regular,P303,Personal Care,Face Cream,4,3.92,UPI,0,In-store
+TXN-2025-0422,BILL-1083,12-01-2025,S2,Suburban,C040,Regular,P401,Beverages,Green Tea,1,7.5,Cash,0,In-store
+TXN-2025-0423,BILL-1083,15-01-2025,S2,Suburban,C108,Loyal,P210,Snacks,Nachos,1,7.64,UPI,1,Online
+TXN-2025-0424,BILL-1084,08-01-2025,S2,Suburban,C075,Regular,P210,Snacks,Nachos,1,3.99,UPI,1,In-store
+TXN-2025-0425,BILL-1084,06-01-2025,S1,Downtown,C104,New,P302,Personal Care,Body Wash,4,5.1,Cash,0.5,In-store
+TXN-2025-0426,BILL-1084,04-01-2025,S1,Downtown,C089,Loyal,P401,Beverages,Green Tea,5,5.28,UPI,0,Online
+TXN-2025-0427,BILL-1084,09-01-2025,S1,Downtown,C020,Regular,P210,Snacks,Nachos,5,4.81,Credit Card,1,Online
+TXN-2025-0428,BILL-1084,29-01-2025,S3,Uptown,C064,Loyal,P102,Beverages,Soda 500ml,4,6.75,UPI,1,Online
+TXN-2025-0429,BILL-1084,26-01-2025,S1,Downtown,C087,New,P302,Personal Care,Body Wash,4,9.7,Cash,0.5,Online
+TXN-2025-0430,BILL-1084,20-01-2025,S3,Uptown,C005,Loyal,P501,Snacks,Chocolate Bar,1,6.23,Cash,0.5,In-store
+TXN-2025-0431,BILL-1085,19-01-2025,S1,Downtown,C048,Regular,P205,Snacks,Potato Chips,2,7.08,Cash,0,In-store
+TXN-2025-0432,BILL-1085,24-01-2025,S2,Suburban,C030,Loyal,P302,Personal Care,Body Wash,5,8.48,Cash,0.5,In-store
+TXN-2025-0433,BILL-1086,24-01-2025,S1,Downtown,C032,Regular,P210,Snacks,Nachos,5,3.04,Cash,1,Online
+TXN-2025-0434,BILL-1087,27-01-2025,S2,Suburban,C078,Regular,P102,Beverages,Soda 500ml,5,2.34,UPI,1,In-store
+TXN-2025-0435,BILL-1087,15-01-2025,S3,Uptown,C070,Regular,P501,Snacks,Chocolate Bar,2,8.34,UPI,0.5,Online
+TXN-2025-0436,BILL-1087,22-01-2025,S3,Uptown,C025,Loyal,P205,Snacks,Potato Chips,1,7.7,Credit Card,1,In-store
+TXN-2025-0437,BILL-1088,08-01-2025,S2,Suburban,C146,New,P210,Snacks,Nachos,2,1.62,Cash,0,In-store
+TXN-2025-0438,BILL-1089,14-01-2025,S3,Uptown,C058,Regular,P303,Personal Care,Face Cream,4,4.55,UPI,1,In-store
+TXN-2025-0439,BILL-1089,23-01-2025,S2,Suburban,C057,Loyal,P302,Personal Care,Body Wash,5,7.18,UPI,0,In-store
+TXN-2025-0440,BILL-1089,24-01-2025,S2,Suburban,C086,Loyal,P303,Personal Care,Face Cream,1,9.15,UPI,0.5,In-store
+TXN-2025-0441,BILL-1089,08-01-2025,S1,Downtown,C062,Regular,P302,Personal Care,Body Wash,5,8.59,Cash,1,In-store
+TXN-2025-0442,BILL-1089,23-01-2025,S3,Uptown,C090,New,P302,Personal Care,Body Wash,4,1.27,Cash,0.5,Online
+TXN-2025-0443,BILL-1090,28-01-2025,S3,Uptown,C030,Loyal,P501,Snacks,Chocolate Bar,4,8.45,Cash,0.5,Online
+TXN-2025-0444,BILL-1090,17-01-2025,S2,Suburban,C148,Regular,P210,Snacks,Nachos,5,9.79,Cash,0,Online
+TXN-2025-0445,BILL-1091,15-01-2025,S3,Uptown,C121,Regular,P101,Beverages,Orange Juice 1L,5,6.46,Cash,1,In-store
+TXN-2025-0446,BILL-1092,23-01-2025,S3,Uptown,C123,Loyal,P303,Personal Care,Face Cream,5,3.17,Credit Card,0.5,In-store
+TXN-2025-0447,BILL-1092,11-01-2025,S2,Suburban,C090,Loyal,P303,Personal Care,Face Cream,1,4.69,Cash,0,Online
+TXN-2025-0448,BILL-1093,13-01-2025,S2,Suburban,C022,Regular,P210,Snacks,Nachos,4,3.84,Cash,0.5,Online
+TXN-2025-0449,BILL-1094,20-01-2025,S3,Uptown,C118,New,P101,Beverages,Orange Juice 1L,1,9.99,Credit Card,0,In-store
+TXN-2025-0450,BILL-1094,28-01-2025,S2,Suburban,C102,Loyal,P101,Beverages,Orange Juice 1L,4,1.75,Credit Card,1,Online
+TXN-2025-0451,BILL-1094,24-01-2025,S3,Uptown,C127,Regular,P102,Beverages,Soda 500ml,2,6.68,Cash,1,In-store
+TXN-2025-0452,BILL-1094,02-01-2025,S2,Suburban,C084,Regular,P303,Personal Care,Face Cream,3,9.55,Credit Card,0,Online
+TXN-2025-0453,BILL-1095,12-01-2025,S3,Uptown,C048,Loyal,P501,Snacks,Chocolate Bar,5,2.55,UPI,1,Online
+TXN-2025-0454,BILL-1096,29-01-2025,S1,Downtown,C091,Regular,P501,Snacks,Chocolate Bar,3,7.76,Cash,0.5,Online
+TXN-2025-0455,BILL-1096,24-01-2025,S1,Downtown,C113,Loyal,P210,Snacks,Nachos,3,8.56,UPI,0.5,In-store
+TXN-2025-0456,BILL-1096,27-01-2025,S3,Uptown,C039,New,P205,Snacks,Potato Chips,1,6.2,Credit Card,1,In-store
+TXN-2025-0457,BILL-1096,30-01-2025,S1,Downtown,C123,Loyal,P302,Personal Care,Body Wash,4,2.42,Credit Card,1,Online
+TXN-2025-0458,BILL-1096,01-01-2025,S3,Uptown,C013,New,P102,Beverages,Soda 500ml,4,8.73,UPI,0,Online
+TXN-2025-0459,BILL-1096,24-01-2025,S2,Suburban,C007,New,P101,Beverages,Orange Juice 1L,1,3.79,Credit Card,0,Online
+TXN-2025-0460,BILL-1096,18-01-2025,S1,Downtown,C015,Loyal,P501,Snacks,Chocolate Bar,3,7.8,Cash,1,Online
+TXN-2025-0461,BILL-1096,14-01-2025,S2,Suburban,C042,Regular,P210,Snacks,Nachos,2,5.35,Cash,0,Online
+TXN-2025-0462,BILL-1097,25-01-2025,S3,Uptown,C122,Loyal,P205,Snacks,Potato Chips,5,1.2,UPI,0,Online
+TXN-2025-0463,BILL-1097,20-01-2025,S2,Suburban,C018,New,P102,Beverages,Soda 500ml,3,8.01,UPI,0.5,In-store
+TXN-2025-0464,BILL-1097,15-01-2025,S1,Downtown,C147,Loyal,P302,Personal Care,Body Wash,4,5.9,Credit Card,0.5,Online
+TXN-2025-0465,BILL-1097,25-01-2025,S2,Suburban,C113,Loyal,P401,Beverages,Green Tea,1,3.22,Cash,0.5,In-store
+TXN-2025-0466,BILL-1097,24-01-2025,S1,Downtown,C113,Regular,P101,Beverages,Orange Juice 1L,5,5.96,Cash,0.5,Online
+TXN-2025-0467,BILL-1097,10-01-2025,S1,Downtown,C109,Loyal,P303,Personal Care,Face Cream,2,1.79,UPI,0.5,Online
+TXN-2025-0468,BILL-1098,06-01-2025,S1,Downtown,C025,New,P302,Personal Care,Body Wash,4,2.71,UPI,0.5,In-store
+TXN-2025-0469,BILL-1098,06-01-2025,S3,Uptown,C007,Loyal,P401,Beverages,Green Tea,4,1,UPI,0.5,Online
+TXN-2025-0470,BILL-1098,03-01-2025,S2,Suburban,C045,New,P501,Snacks,Chocolate Bar,5,1.91,UPI,0.5,In-store
+TXN-2025-0471,BILL-1099,20-01-2025,S3,Uptown,C059,Regular,P101,Beverages,Orange Juice 1L,2,1.31,Cash,0.5,In-store
+TXN-2025-0472,BILL-1099,05-01-2025,S2,Suburban,C095,Loyal,P301,Personal Care,Shampoo 250ml,2,7.41,Cash,0,In-store
+TXN-2025-0473,BILL-1099,11-01-2025,S1,Downtown,C061,Regular,P210,Snacks,Nachos,2,2.37,Credit Card,1,Online
+TXN-2025-0474,BILL-1099,02-01-2025,S1,Downtown,C045,Regular,P302,Personal Care,Body Wash,3,6.44,UPI,1,Online
+TXN-2025-0475,BILL-1100,11-01-2025,S1,Downtown,C123,Regular,P210,Snacks,Nachos,2,8.43,Cash,0.5,Online
+TXN-2025-0476,BILL-1100,10-01-2025,S1,Downtown,C017,Regular,P205,Snacks,Potato Chips,4,7.62,Credit Card,1,In-store
+TXN-2025-0477,BILL-1100,30-01-2025,S1,Downtown,C136,Regular,P205,Snacks,Potato Chips,5,8.78,Cash,0.5,Online
+TXN-2025-0478,BILL-1100,31-01-2025,S1,Downtown,C003,Loyal,P205,Snacks,Potato Chips,3,6.89,Cash,1,Online
+TXN-2025-0479,BILL-1100,23-01-2025,S2,Suburban,C112,Loyal,P301,Personal Care,Shampoo 250ml,3,5.79,UPI,0.5,In-store
+TXN-2025-0480,BILL-1100,05-01-2025,S2,Suburban,C003,New,P501,Snacks,Chocolate Bar,2,7.16,UPI,0,Online
+TXN-2025-0481,BILL-1100,29-01-2025,S2,Suburban,C080,New,P301,Personal Care,Shampoo 250ml,2,4.72,Cash,0,In-store
+TXN-2025-0482,BILL-1100,25-01-2025,S1,Downtown,C072,Loyal,P102,Beverages,Soda 500ml,2,6.13,Credit Card,1,Online
+TXN-2025-0483,BILL-1100,16-01-2025,S2,Suburban,C037,New,P401,Beverages,Green Tea,2,7.57,Cash,0.5,Online
+TXN-2025-0484,BILL-1100,05-01-2025,S2,Suburban,C061,Regular,P301,Personal Care,Shampoo 250ml,5,1.63,UPI,0,Online
+TXN-2025-0485,BILL-1100,21-01-2025,S1,Downtown,C066,Loyal,P301,Personal Care,Shampoo 250ml,1,8,UPI,0.5,In-store
+TXN-2025-0486,BILL-1100,30-01-2025,S2,Suburban,C118,New,P102,Beverages,Soda 500ml,5,8.01,Credit Card,1,Online
+TXN-2025-0487,BILL-1101,14-01-2025,S2,Suburban,C105,Loyal,P401,Beverages,Green Tea,2,8.53,Cash,0,In-store
+TXN-2025-0488,BILL-1101,13-01-2025,S2,Suburban,C067,New,P210,Snacks,Nachos,1,7.74,Credit Card,1,Online
+TXN-2025-0489,BILL-1101,03-01-2025,S3,Uptown,C115,Regular,P205,Snacks,Potato Chips,1,9.91,Credit Card,0.5,Online
+TXN-2025-0490,BILL-1101,22-01-2025,S1,Downtown,C100,Regular,P102,Beverages,Soda 500ml,3,6.31,Cash,0.5,Online
+TXN-2025-0491,BILL-1101,06-01-2025,S1,Downtown,C067,New,P401,Beverages,Green Tea,4,6.03,Cash,1,In-store
+TXN-2025-0492,BILL-1101,30-01-2025,S3,Uptown,C029,Loyal,P501,Snacks,Chocolate Bar,2,8.72,Credit Card,0,Online
+TXN-2025-0493,BILL-1102,01-01-2025,S1,Downtown,C148,New,P210,Snacks,Nachos,1,6.56,Cash,0,Online
+TXN-2025-0494,BILL-1102,14-01-2025,S1,Downtown,C132,Loyal,P101,Beverages,Orange Juice 1L,5,9.74,Credit Card,0.5,Online
+TXN-2025-0495,BILL-1102,12-01-2025,S3,Uptown,C041,New,P101,Beverages,Orange Juice 1L,4,8.26,Credit Card,1,In-store
+TXN-2025-0496,BILL-1102,10-01-2025,S2,Suburban,C004,New,P205,Snacks,Potato Chips,2,6.32,Cash,1,In-store
+TXN-2025-0497,BILL-1102,14-01-2025,S2,Suburban,C125,New,P101,Beverages,Orange Juice 1L,4,4.02,Credit Card,0,Online
+TXN-2025-0498,BILL-1102,30-01-2025,S1,Downtown,C111,New,P301,Personal Care,Shampoo 250ml,1,6.42,UPI,1,In-store
+TXN-2025-0499,BILL-1102,04-01-2025,S3,Uptown,C064,New,P205,Snacks,Potato Chips,2,2.2,Cash,1,In-store
+TXN-2025-0500,BILL-1102,04-01-2025,S2,Suburban,C044,New,P101,Beverages,Orange Juice 1L,1,4.41,Credit Card,1,Online
+TXN-2025-0501,BILL-1102,22-01-2025,S1,Downtown,C124,Loyal,P301,Personal Care,Shampoo 250ml,2,4.25,Credit Card,1,In-store
+TXN-2025-0502,BILL-1103,20-01-2025,S2,Suburban,C021,New,P205,Snacks,Potato Chips,3,6.52,Cash,1,In-store
+TXN-2025-0503,BILL-1103,06-01-2025,S2,Suburban,C045,Loyal,P101,Beverages,Orange Juice 1L,5,1.78,Cash,0.5,In-store
+TXN-2025-0504,BILL-1103,11-01-2025,S1,Downtown,C146,Regular,P302,Personal Care,Body Wash,4,9.82,UPI,0.5,In-store
+TXN-2025-0505,BILL-1104,01-01-2025,S1,Downtown,C086,Loyal,P210,Snacks,Nachos,4,6.06,Credit Card,0,Online
+TXN-2025-0506,BILL-1104,25-01-2025,S2,Suburban,C140,Loyal,P102,Beverages,Soda 500ml,4,4.89,UPI,1,In-store
+TXN-2025-0507,BILL-1104,14-01-2025,S3,Uptown,C026,Loyal,P302,Personal Care,Body Wash,1,8.54,Credit Card,1,In-store
+TXN-2025-0508,BILL-1104,12-01-2025,S3,Uptown,C062,Regular,P302,Personal Care,Body Wash,5,2.53,Cash,0,In-store
+TXN-2025-0509,BILL-1104,27-01-2025,S2,Suburban,C067,Regular,P401,Beverages,Green Tea,5,6.02,UPI,1,Online
+TXN-2025-0510,BILL-1104,23-01-2025,S2,Suburban,C047,Loyal,P303,Personal Care,Face Cream,4,6.53,Cash,1,Online
+TXN-2025-0511,BILL-1104,14-01-2025,S1,Downtown,C110,New,P303,Personal Care,Face Cream,1,6.02,Cash,0.5,In-store
+TXN-2025-0512,BILL-1105,20-01-2025,S1,Downtown,C035,Loyal,P205,Snacks,Potato Chips,4,2.37,UPI,0.5,Online
+TXN-2025-0513,BILL-1105,30-01-2025,S1,Downtown,C024,Loyal,P303,Personal Care,Face Cream,5,1.44,UPI,1,Online
+TXN-2025-0514,BILL-1105,13-01-2025,S3,Uptown,C012,Loyal,P205,Snacks,Potato Chips,1,8.43,UPI,0,In-store
+TXN-2025-0515,BILL-1106,28-01-2025,S2,Suburban,C036,Regular,P302,Personal Care,Body Wash,2,2.43,UPI,1,Online
+TXN-2025-0516,BILL-1106,24-01-2025,S3,Uptown,C034,Loyal,P302,Personal Care,Body Wash,2,4.38,Credit Card,1,Online
+TXN-2025-0517,BILL-1106,10-01-2025,S1,Downtown,C108,Regular,P101,Beverages,Orange Juice 1L,4,1.97,Credit Card,0,In-store
+TXN-2025-0518,BILL-1106,15-01-2025,S1,Downtown,C134,Loyal,P210,Snacks,Nachos,1,8.88,UPI,0.5,Online
+TXN-2025-0519,BILL-1106,15-01-2025,S1,Downtown,C024,Loyal,P210,Snacks,Nachos,4,9.11,Credit Card,0.5,Online
+TXN-2025-0520,BILL-1106,22-01-2025,S1,Downtown,C032,Regular,P401,Beverages,Green Tea,5,8.98,Cash,0.5,Online
+TXN-2025-0521,BILL-1107,22-01-2025,S1,Downtown,C025,Loyal,P102,Beverages,Soda 500ml,4,2.23,Credit Card,0.5,In-store
+TXN-2025-0522,BILL-1107,02-01-2025,S3,Uptown,C107,Loyal,P303,Personal Care,Face Cream,4,8.94,UPI,0.5,In-store
+TXN-2025-0523,BILL-1107,21-01-2025,S2,Suburban,C045,Regular,P205,Snacks,Potato Chips,5,6.11,UPI,1,In-store
+TXN-2025-0524,BILL-1107,25-01-2025,S1,Downtown,C061,Loyal,P501,Snacks,Chocolate Bar,5,4.65,Cash,0.5,Online
+TXN-2025-0525,BILL-1107,12-01-2025,S1,Downtown,C065,New,P205,Snacks,Potato Chips,4,5.6,Cash,1,Online
+TXN-2025-0526,BILL-1108,22-01-2025,S2,Suburban,C034,Regular,P303,Personal Care,Face Cream,1,5.78,Cash,0.5,In-store
+TXN-2025-0527,BILL-1109,26-01-2025,S2,Suburban,C106,Regular,P102,Beverages,Soda 500ml,2,2.33,Credit Card,0,In-store
+TXN-2025-0528,BILL-1110,05-01-2025,S3,Uptown,C105,New,P301,Personal Care,Shampoo 250ml,1,9.36,UPI,1,Online
+TXN-2025-0529,BILL-1110,06-01-2025,S3,Uptown,C025,New,P401,Beverages,Green Tea,1,6.19,UPI,1,In-store
+TXN-2025-0530,BILL-1110,10-01-2025,S1,Downtown,C057,Loyal,P210,Snacks,Nachos,4,1.17,Cash,0,In-store
+TXN-2025-0531,BILL-1110,28-01-2025,S2,Suburban,C114,Loyal,P101,Beverages,Orange Juice 1L,1,5.37,Cash,0.5,In-store
+TXN-2025-0532,BILL-1110,22-01-2025,S2,Suburban,C069,Regular,P205,Snacks,Potato Chips,4,9.46,Cash,0,Online
+TXN-2025-0533,BILL-1110,31-01-2025,S3,Uptown,C071,New,P501,Snacks,Chocolate Bar,3,4.78,UPI,0,Online
+TXN-2025-0534,BILL-1110,10-01-2025,S3,Uptown,C057,Regular,P102,Beverages,Soda 500ml,1,8.14,Cash,1,In-store
+TXN-2025-0535,BILL-1110,24-01-2025,S1,Downtown,C097,New,P301,Personal Care,Shampoo 250ml,1,3.72,Cash,0.5,Online
+TXN-2025-0536,BILL-1110,28-01-2025,S3,Uptown,C078,Loyal,P101,Beverages,Orange Juice 1L,2,2.01,Credit Card,1,Online
+TXN-2025-0537,BILL-1111,05-01-2025,S3,Uptown,C125,New,P302,Personal Care,Body Wash,3,2.86,UPI,0,In-store
+TXN-2025-0538,BILL-1112,19-01-2025,S2,Suburban,C074,Regular,P301,Personal Care,Shampoo 250ml,1,1.2,Cash,0,In-store
+TXN-2025-0539,BILL-1112,04-01-2025,S2,Suburban,C053,Regular,P210,Snacks,Nachos,4,2.09,Credit Card,1,In-store
+TXN-2025-0540,BILL-1112,28-01-2025,S2,Suburban,C052,Loyal,P102,Beverages,Soda 500ml,5,2.64,Cash,1,In-store
+TXN-2025-0541,BILL-1112,21-01-2025,S2,Suburban,C083,Regular,P301,Personal Care,Shampoo 250ml,3,3.66,UPI,0.5,In-store
+TXN-2025-0542,BILL-1113,22-01-2025,S2,Suburban,C114,Regular,P301,Personal Care,Shampoo 250ml,3,8.59,Credit Card,0,In-store
+TXN-2025-0543,BILL-1113,15-01-2025,S3,Uptown,C032,Regular,P205,Snacks,Potato Chips,1,5.98,Credit Card,1,In-store
+TXN-2025-0544,BILL-1113,17-01-2025,S2,Suburban,C136,Loyal,P210,Snacks,Nachos,4,9.08,Cash,0.5,In-store
+TXN-2025-0545,BILL-1113,15-01-2025,S1,Downtown,C050,Regular,P101,Beverages,Orange Juice 1L,1,2.75,UPI,0.5,In-store
+TXN-2025-0546,BILL-1114,15-01-2025,S3,Uptown,C026,Regular,P501,Snacks,Chocolate Bar,5,3.43,UPI,0,Online
+TXN-2025-0547,BILL-1115,11-01-2025,S3,Uptown,C097,Regular,P210,Snacks,Nachos,4,8.85,Cash,0,Online
+TXN-2025-0548,BILL-1115,06-01-2025,S1,Downtown,C138,Regular,P210,Snacks,Nachos,1,3.85,Cash,0,In-store
+TXN-2025-0549,BILL-1115,10-01-2025,S2,Suburban,C054,Regular,P401,Beverages,Green Tea,5,4.56,Cash,0.5,In-store
+TXN-2025-0550,BILL-1115,26-01-2025,S1,Downtown,C030,Regular,P102,Beverages,Soda 500ml,4,6.16,Credit Card,0.5,Online
+TXN-2025-0551,BILL-1115,14-01-2025,S1,Downtown,C001,New,P401,Beverages,Green Tea,5,4.77,Credit Card,0.5,Online
+TXN-2025-0552,BILL-1115,29-01-2025,S2,Suburban,C001,Loyal,P210,Snacks,Nachos,5,7.85,UPI,0.5,In-store
+TXN-2025-0553,BILL-1115,14-01-2025,S3,Uptown,C097,Regular,P101,Beverages,Orange Juice 1L,3,8.94,Cash,1,In-store
+TXN-2025-0554,BILL-1115,26-01-2025,S1,Downtown,C017,New,P301,Personal Care,Shampoo 250ml,2,5.5,Cash,0.5,Online
+TXN-2025-0555,BILL-1115,07-01-2025,S2,Suburban,C099,New,P501,Snacks,Chocolate Bar,1,8.43,UPI,0,Online
+TXN-2025-0556,BILL-1115,02-01-2025,S3,Uptown,C023,Regular,P303,Personal Care,Face Cream,3,6.72,UPI,1,Online
+TXN-2025-0557,BILL-1116,30-01-2025,S2,Suburban,C062,New,P302,Personal Care,Body Wash,2,4.42,Credit Card,1,Online
+TXN-2025-0558,BILL-1116,31-01-2025,S2,Suburban,C103,Regular,P101,Beverages,Orange Juice 1L,5,1.8,Cash,1,Online
+TXN-2025-0559,BILL-1116,05-01-2025,S3,Uptown,C055,Loyal,P501,Snacks,Chocolate Bar,2,8.34,Cash,1,Online
+TXN-2025-0560,BILL-1117,23-01-2025,S2,Suburban,C110,New,P210,Snacks,Nachos,1,1.61,Credit Card,0.5,Online
+TXN-2025-0561,BILL-1117,23-01-2025,S1,Downtown,C145,New,P205,Snacks,Potato Chips,5,8.77,Credit Card,0,In-store
+TXN-2025-0562,BILL-1117,25-01-2025,S3,Uptown,C045,New,P303,Personal Care,Face Cream,5,9.44,UPI,0.5,In-store
+TXN-2025-0563,BILL-1117,31-01-2025,S3,Uptown,C074,New,P102,Beverages,Soda 500ml,2,6.73,UPI,1,In-store
+TXN-2025-0564,BILL-1117,17-01-2025,S1,Downtown,C099,Loyal,P302,Personal Care,Body Wash,2,5.54,Credit Card,0.5,Online
+TXN-2025-0565,BILL-1117,04-01-2025,S1,Downtown,C123,Loyal,P205,Snacks,Potato Chips,4,9.02,UPI,0,Online
+TXN-2025-0566,BILL-1117,28-01-2025,S2,Suburban,C053,Loyal,P501,Snacks,Chocolate Bar,2,7.47,Cash,0,Online
+TXN-2025-0567,BILL-1117,25-01-2025,S1,Downtown,C135,New,P301,Personal Care,Shampoo 250ml,4,9.59,Credit Card,0.5,Online
+TXN-2025-0568,BILL-1118,21-01-2025,S2,Suburban,C127,Loyal,P401,Beverages,Green Tea,2,1.6,UPI,1,In-store
+TXN-2025-0569,BILL-1118,11-01-2025,S2,Suburban,C141,Regular,P210,Snacks,Nachos,3,6.11,UPI,0,Online
+TXN-2025-0570,BILL-1119,14-01-2025,S3,Uptown,C143,Regular,P101,Beverages,Orange Juice 1L,4,2.52,UPI,0,Online
+TXN-2025-0571,BILL-1119,05-01-2025,S3,Uptown,C126,New,P301,Personal Care,Shampoo 250ml,1,6.59,Cash,0,Online
+TXN-2025-0572,BILL-1119,13-01-2025,S1,Downtown,C048,Loyal,P205,Snacks,Potato Chips,3,2.83,Credit Card,0,Online
+TXN-2025-0573,BILL-1119,25-01-2025,S3,Uptown,C037,Loyal,P102,Beverages,Soda 500ml,3,8.67,UPI,1,In-store
+TXN-2025-0574,BILL-1119,09-01-2025,S2,Suburban,C037,Regular,P205,Snacks,Potato Chips,5,3.89,UPI,1,Online
+TXN-2025-0575,BILL-1119,26-01-2025,S2,Suburban,C106,New,P401,Beverages,Green Tea,3,5.02,Cash,0.5,Online
+TXN-2025-0576,BILL-1120,18-01-2025,S1,Downtown,C098,New,P302,Personal Care,Body Wash,5,9.91,Credit Card,0,Online
+TXN-2025-0577,BILL-1120,05-01-2025,S1,Downtown,C021,New,P501,Snacks,Chocolate Bar,3,6.23,UPI,0,In-store
+TXN-2025-0578,BILL-1121,08-01-2025,S2,Suburban,C033,Regular,P205,Snacks,Potato Chips,1,7.05,UPI,1,In-store
+TXN-2025-0579,BILL-1121,04-01-2025,S1,Downtown,C130,Loyal,P101,Beverages,Orange Juice 1L,3,2.08,Cash,0.5,In-store
+TXN-2025-0580,BILL-1121,05-01-2025,S1,Downtown,C013,Loyal,P401,Beverages,Green Tea,3,4.71,UPI,0.5,In-store
+TXN-2025-0581,BILL-1122,22-01-2025,S3,Uptown,C149,Regular,P205,Snacks,Potato Chips,5,3.69,Cash,0.5,Online
+TXN-2025-0582,BILL-1123,24-01-2025,S3,Uptown,C057,New,P210,Snacks,Nachos,1,2.82,Credit Card,0,In-store
+TXN-2025-0583,BILL-1124,22-01-2025,S1,Downtown,C006,New,P302,Personal Care,Body Wash,2,1.63,UPI,1,In-store
+TXN-2025-0584,BILL-1124,31-01-2025,S2,Suburban,C018,Loyal,P205,Snacks,Potato Chips,1,6.31,Cash,1,Online
+TXN-2025-0585,BILL-1124,07-01-2025,S1,Downtown,C110,New,P102,Beverages,Soda 500ml,1,4.53,Credit Card,1,Online
+TXN-2025-0586,BILL-1124,30-01-2025,S3,Uptown,C114,Regular,P102,Beverages,Soda 500ml,3,4.26,Cash,1,In-store
+TXN-2025-0587,BILL-1124,22-01-2025,S3,Uptown,C054,Loyal,P205,Snacks,Potato Chips,4,1.34,UPI,0.5,In-store
+TXN-2025-0588,BILL-1124,01-01-2025,S3,Uptown,C133,Regular,P302,Personal Care,Body Wash,5,8.84,UPI,1,In-store
+TXN-2025-0589,BILL-1124,23-01-2025,S2,Suburban,C054,Loyal,P303,Personal Care,Face Cream,3,4.99,UPI,0.5,In-store
+TXN-2025-0590,BILL-1125,17-01-2025,S1,Downtown,C150,Regular,P303,Personal Care,Face Cream,3,2.88,Credit Card,1,In-store
+TXN-2025-0591,BILL-1125,13-01-2025,S1,Downtown,C019,New,P401,Beverages,Green Tea,1,9.19,Credit Card,0,In-store
+TXN-2025-0592,BILL-1125,30-01-2025,S3,Uptown,C140,Loyal,P210,Snacks,Nachos,2,9.49,UPI,0,In-store
+TXN-2025-0593,BILL-1125,04-01-2025,S1,Downtown,C064,New,P501,Snacks,Chocolate Bar,1,3.59,Credit Card,1,Online
+TXN-2025-0594,BILL-1125,15-01-2025,S1,Downtown,C025,New,P205,Snacks,Potato Chips,3,4.04,Credit Card,1,In-store
+TXN-2025-0595,BILL-1125,18-01-2025,S3,Uptown,C007,Loyal,P501,Snacks,Chocolate Bar,3,9.45,UPI,1,In-store
+TXN-2025-0596,BILL-1125,31-01-2025,S3,Uptown,C030,Regular,P501,Snacks,Chocolate Bar,3,5.31,UPI,1,Online
+TXN-2025-0597,BILL-1125,31-01-2025,S3,Uptown,C083,Regular,P303,Personal Care,Face Cream,5,5.78,Cash,1,Online
+TXN-2025-0598,BILL-1126,08-01-2025,S1,Downtown,C016,Regular,P302,Personal Care,Body Wash,3,4.85,Cash,1,Online
+TXN-2025-0599,BILL-1127,17-01-2025,S3,Uptown,C119,Loyal,P401,Beverages,Green Tea,4,3.23,Cash,0.5,In-store
+TXN-2025-0600,BILL-1127,02-01-2025,S3,Uptown,C138,Regular,P401,Beverages,Green Tea,3,7.96,Cash,0,Online
+TXN-2025-0601,BILL-1127,27-01-2025,S1,Downtown,C088,Regular,P302,Personal Care,Body Wash,3,9.65,Credit Card,1,Online
+TXN-2025-0602,BILL-1127,17-01-2025,S1,Downtown,C064,Regular,P401,Beverages,Green Tea,5,9.44,Credit Card,0,In-store
+TXN-2025-0603,BILL-1128,16-01-2025,S1,Downtown,C063,New,P205,Snacks,Potato Chips,1,3.77,Credit Card,1,In-store
+TXN-2025-0604,BILL-1128,03-01-2025,S3,Uptown,C141,New,P205,Snacks,Potato Chips,2,2.25,UPI,0,Online
+TXN-2025-0605,BILL-1128,15-01-2025,S1,Downtown,C110,Loyal,P303,Personal Care,Face Cream,2,9.59,Credit Card,0,In-store
+TXN-2025-0606,BILL-1129,24-01-2025,S3,Uptown,C034,New,P210,Snacks,Nachos,1,9.28,UPI,1,In-store
+TXN-2025-0607,BILL-1129,06-01-2025,S3,Uptown,C024,New,P401,Beverages,Green Tea,3,1.43,Credit Card,0.5,In-store
+TXN-2025-0608,BILL-1129,30-01-2025,S2,Suburban,C136,Regular,P301,Personal Care,Shampoo 250ml,1,5.46,Cash,0.5,In-store
+TXN-2025-0609,BILL-1129,13-01-2025,S2,Suburban,C116,Loyal,P302,Personal Care,Body Wash,5,9.12,UPI,1,In-store
+TXN-2025-0610,BILL-1129,06-01-2025,S2,Suburban,C010,Loyal,P401,Beverages,Green Tea,1,3.14,UPI,1,In-store
+TXN-2025-0611,BILL-1129,31-01-2025,S2,Suburban,C018,Regular,P205,Snacks,Potato Chips,2,8.57,Cash,0.5,In-store
+TXN-2025-0612,BILL-1129,23-01-2025,S3,Uptown,C040,New,P210,Snacks,Nachos,5,8.54,Cash,1,Online
+TXN-2025-0613,BILL-1129,15-01-2025,S3,Uptown,C036,New,P501,Snacks,Chocolate Bar,4,6.61,Credit Card,0.5,In-store
+TXN-2025-0614,BILL-1129,04-01-2025,S1,Downtown,C077,New,P205,Snacks,Potato Chips,1,2.09,UPI,1,Online
+TXN-2025-0615,BILL-1130,16-01-2025,S3,Uptown,C084,New,P101,Beverages,Orange Juice 1L,5,1.6,UPI,0.5,In-store
+TXN-2025-0616,BILL-1131,20-01-2025,S1,Downtown,C005,New,P210,Snacks,Nachos,4,6.18,Cash,0,In-store
+TXN-2025-0617,BILL-1131,11-01-2025,S3,Uptown,C143,New,P401,Beverages,Green Tea,2,4.5,Cash,1,In-store
+TXN-2025-0618,BILL-1131,12-01-2025,S1,Downtown,C008,Loyal,P210,Snacks,Nachos,4,6.76,Cash,0.5,Online
+TXN-2025-0619,BILL-1131,27-01-2025,S1,Downtown,C135,Loyal,P501,Snacks,Chocolate Bar,1,4.56,Credit Card,1,Online
+TXN-2025-0620,BILL-1131,18-01-2025,S2,Suburban,C147,Loyal,P302,Personal Care,Body Wash,5,9.87,Credit Card,0,Online
+TXN-2025-0621,BILL-1131,22-01-2025,S2,Suburban,C028,New,P501,Snacks,Chocolate Bar,3,9.62,UPI,0,Online
+TXN-2025-0622,BILL-1132,24-01-2025,S2,Suburban,C129,New,P302,Personal Care,Body Wash,4,3.18,Credit Card,0.5,Online
+TXN-2025-0623,BILL-1132,16-01-2025,S3,Uptown,C025,Regular,P102,Beverages,Soda 500ml,4,5.92,Credit Card,0.5,In-store
+TXN-2025-0624,BILL-1133,03-01-2025,S2,Suburban,C136,Regular,P102,Beverages,Soda 500ml,5,5.55,Cash,0,Online
+TXN-2025-0625,BILL-1133,23-01-2025,S2,Suburban,C138,Loyal,P302,Personal Care,Body Wash,1,2.28,Cash,0.5,In-store
+TXN-2025-0626,BILL-1133,29-01-2025,S1,Downtown,C091,New,P101,Beverages,Orange Juice 1L,4,4.51,Cash,0,Online
+TXN-2025-0627,BILL-1133,14-01-2025,S2,Suburban,C069,Loyal,P205,Snacks,Potato Chips,3,2.54,Cash,1,Online
+TXN-2025-0628,BILL-1134,01-01-2025,S2,Suburban,C092,New,P501,Snacks,Chocolate Bar,2,1.98,Credit Card,1,Online
+TXN-2025-0629,BILL-1134,05-01-2025,S3,Uptown,C130,Loyal,P303,Personal Care,Face Cream,3,6.23,Credit Card,0.5,In-store
+TXN-2025-0630,BILL-1134,13-01-2025,S3,Uptown,C027,Regular,P210,Snacks,Nachos,3,6.41,UPI,0.5,Online
+TXN-2025-0631,BILL-1134,28-01-2025,S3,Uptown,C138,New,P301,Personal Care,Shampoo 250ml,5,3.98,Cash,0.5,Online
+TXN-2025-0632,BILL-1135,30-01-2025,S3,Uptown,C026,Regular,P303,Personal Care,Face Cream,3,6.32,UPI,0,Online
+TXN-2025-0633,BILL-1135,21-01-2025,S2,Suburban,C119,New,P501,Snacks,Chocolate Bar,1,3.03,Cash,1,Online
+TXN-2025-0634,BILL-1135,08-01-2025,S2,Suburban,C037,Loyal,P301,Personal Care,Shampoo 250ml,1,8.63,UPI,0.5,In-store
+TXN-2025-0635,BILL-1135,03-01-2025,S3,Uptown,C115,Loyal,P501,Snacks,Chocolate Bar,1,8.55,Cash,1,Online
+TXN-2025-0636,BILL-1135,30-01-2025,S1,Downtown,C029,Regular,P303,Personal Care,Face Cream,3,8.55,UPI,0,Online
+TXN-2025-0637,BILL-1135,22-01-2025,S2,Suburban,C090,Loyal,P302,Personal Care,Body Wash,5,1.07,Cash,0.5,Online
+TXN-2025-0638,BILL-1135,31-01-2025,S1,Downtown,C062,New,P102,Beverages,Soda 500ml,2,4.75,Cash,0,In-store
+TXN-2025-0639,BILL-1135,20-01-2025,S1,Downtown,C135,Regular,P301,Personal Care,Shampoo 250ml,2,4.25,UPI,0,In-store
+TXN-2025-0640,BILL-1136,23-01-2025,S3,Uptown,C128,Loyal,P101,Beverages,Orange Juice 1L,4,4.43,Cash,0,Online
+TXN-2025-0641,BILL-1137,24-01-2025,S3,Uptown,C104,Loyal,P102,Beverages,Soda 500ml,1,8.62,Cash,1,In-store
+TXN-2025-0642,BILL-1137,08-01-2025,S3,Uptown,C035,New,P302,Personal Care,Body Wash,4,6.11,Cash,0,Online
+TXN-2025-0643,BILL-1137,01-01-2025,S2,Suburban,C027,New,P205,Snacks,Potato Chips,2,5.17,Cash,1,Online
+TXN-2025-0644,BILL-1137,23-01-2025,S2,Suburban,C062,New,P210,Snacks,Nachos,4,4.16,Cash,0.5,Online
+TXN-2025-0645,BILL-1137,09-01-2025,S3,Uptown,C148,Regular,P102,Beverages,Soda 500ml,5,1.54,Cash,0,In-store
+TXN-2025-0646,BILL-1138,23-01-2025,S3,Uptown,C057,Loyal,P401,Beverages,Green Tea,4,1.46,Credit Card,1,Online
+TXN-2025-0647,BILL-1138,01-01-2025,S2,Suburban,C100,Loyal,P101,Beverages,Orange Juice 1L,4,4.77,Cash,1,In-store
+TXN-2025-0648,BILL-1139,19-01-2025,S3,Uptown,C042,New,P302,Personal Care,Body Wash,1,9.83,UPI,0,Online
+TXN-2025-0649,BILL-1140,21-01-2025,S2,Suburban,C120,Loyal,P101,Beverages,Orange Juice 1L,2,1.56,UPI,1,In-store
+TXN-2025-0650,BILL-1140,18-01-2025,S1,Downtown,C072,New,P205,Snacks,Potato Chips,5,2.85,Cash,1,In-store
+TXN-2025-0651,BILL-1141,02-01-2025,S1,Downtown,C061,Regular,P205,Snacks,Potato Chips,4,1.03,Cash,0.5,In-store
+TXN-2025-0652,BILL-1141,27-01-2025,S1,Downtown,C103,New,P101,Beverages,Orange Juice 1L,3,9.9,Cash,0.5,Online
+TXN-2025-0653,BILL-1141,22-01-2025,S3,Uptown,C093,Loyal,P101,Beverages,Orange Juice 1L,3,2.53,UPI,0.5,In-store
+TXN-2025-0654,BILL-1141,07-01-2025,S3,Uptown,C118,Loyal,P302,Personal Care,Body Wash,4,9.25,Cash,1,Online
+TXN-2025-0655,BILL-1141,26-01-2025,S3,Uptown,C116,New,P102,Beverages,Soda 500ml,5,2.93,UPI,0,Online
+TXN-2025-0656,BILL-1141,21-01-2025,S2,Suburban,C063,Regular,P301,Personal Care,Shampoo 250ml,3,8.69,Cash,0,Online
+TXN-2025-0657,BILL-1141,11-01-2025,S1,Downtown,C012,New,P401,Beverages,Green Tea,3,4.81,UPI,1,In-store
+TXN-2025-0658,BILL-1141,28-01-2025,S3,Uptown,C009,Loyal,P401,Beverages,Green Tea,4,4.06,Cash,0,In-store
+TXN-2025-0659,BILL-1141,07-01-2025,S1,Downtown,C019,Loyal,P303,Personal Care,Face Cream,2,1.77,Cash,0.5,In-store
+TXN-2025-0660,BILL-1141,21-01-2025,S1,Downtown,C014,New,P401,Beverages,Green Tea,1,2.31,UPI,0,Online
+TXN-2025-0661,BILL-1142,03-01-2025,S2,Suburban,C091,Regular,P101,Beverages,Orange Juice 1L,5,1.98,Credit Card,0.5,In-store
+TXN-2025-0662,BILL-1142,03-01-2025,S3,Uptown,C129,New,P501,Snacks,Chocolate Bar,1,3.66,Credit Card,0.5,Online
+TXN-2025-0663,BILL-1142,30-01-2025,S3,Uptown,C094,Loyal,P501,Snacks,Chocolate Bar,2,9.49,Cash,0,In-store
+TXN-2025-0664,BILL-1142,31-01-2025,S1,Downtown,C022,Loyal,P501,Snacks,Chocolate Bar,5,2,UPI,1,Online
+TXN-2025-0665,BILL-1142,22-01-2025,S3,Uptown,C082,Loyal,P205,Snacks,Potato Chips,4,9.24,Cash,0.5,Online
+TXN-2025-0666,BILL-1142,28-01-2025,S3,Uptown,C105,Regular,P102,Beverages,Soda 500ml,2,2.53,Credit Card,1,Online
+TXN-2025-0667,BILL-1142,04-01-2025,S1,Downtown,C035,New,P303,Personal Care,Face Cream,5,4.7,Credit Card,1,Online
+TXN-2025-0668,BILL-1142,03-01-2025,S1,Downtown,C014,New,P205,Snacks,Potato Chips,5,8.63,Credit Card,1,In-store
+TXN-2025-0669,BILL-1142,19-01-2025,S1,Downtown,C149,Regular,P210,Snacks,Nachos,2,2.36,UPI,0.5,In-store
+TXN-2025-0670,BILL-1142,26-01-2025,S3,Uptown,C016,Regular,P301,Personal Care,Shampoo 250ml,1,7.32,UPI,1,In-store
+TXN-2025-0671,BILL-1143,14-01-2025,S3,Uptown,C106,Regular,P102,Beverages,Soda 500ml,4,5.07,Credit Card,0,In-store
+TXN-2025-0672,BILL-1143,25-01-2025,S2,Suburban,C019,New,P210,Snacks,Nachos,2,6.73,Credit Card,1,Online
+TXN-2025-0673,BILL-1144,23-01-2025,S3,Uptown,C021,New,P301,Personal Care,Shampoo 250ml,4,8.15,Credit Card,0,In-store
+TXN-2025-0674,BILL-1144,12-01-2025,S2,Suburban,C002,Regular,P210,Snacks,Nachos,3,9.89,UPI,0.5,Online
+TXN-2025-0675,BILL-1144,06-01-2025,S3,Uptown,C028,New,P210,Snacks,Nachos,2,1.2,Credit Card,1,In-store
+TXN-2025-0676,BILL-1144,15-01-2025,S2,Suburban,C081,New,P302,Personal Care,Body Wash,3,6.91,Cash,0.5,In-store
+TXN-2025-0677,BILL-1144,29-01-2025,S1,Downtown,C078,New,P301,Personal Care,Shampoo 250ml,2,7.97,Credit Card,1,In-store
+TXN-2025-0678,BILL-1144,31-01-2025,S1,Downtown,C061,Loyal,P102,Beverages,Soda 500ml,4,5.58,UPI,0,Online
+TXN-2025-0679,BILL-1144,16-01-2025,S1,Downtown,C081,New,P301,Personal Care,Shampoo 250ml,3,8.16,Cash,0,In-store
+TXN-2025-0680,BILL-1145,13-01-2025,S3,Uptown,C092,Regular,P205,Snacks,Potato Chips,4,5.26,Cash,1,Online
+TXN-2025-0681,BILL-1145,04-01-2025,S3,Uptown,C076,New,P501,Snacks,Chocolate Bar,4,8.15,Cash,0.5,In-store
+TXN-2025-0682,BILL-1145,07-01-2025,S1,Downtown,C103,Loyal,P401,Beverages,Green Tea,2,7.91,Credit Card,0,In-store
+TXN-2025-0683,BILL-1145,12-01-2025,S3,Uptown,C116,Loyal,P401,Beverages,Green Tea,1,1.49,Cash,0.5,In-store
+TXN-2025-0684,BILL-1146,24-01-2025,S2,Suburban,C042,Loyal,P101,Beverages,Orange Juice 1L,3,7.61,UPI,1,In-store
+TXN-2025-0685,BILL-1146,21-01-2025,S2,Suburban,C012,New,P303,Personal Care,Face Cream,5,4.47,UPI,1,Online
+TXN-2025-0686,BILL-1146,11-01-2025,S1,Downtown,C101,Regular,P102,Beverages,Soda 500ml,5,8.09,UPI,0.5,In-store
+TXN-2025-0687,BILL-1147,10-01-2025,S3,Uptown,C133,New,P102,Beverages,Soda 500ml,1,4.81,Cash,0.5,Online
+TXN-2025-0688,BILL-1148,21-01-2025,S2,Suburban,C089,New,P301,Personal Care,Shampoo 250ml,3,3.8,Cash,0,In-store
+TXN-2025-0689,BILL-1148,09-01-2025,S1,Downtown,C145,Regular,P301,Personal Care,Shampoo 250ml,5,8.11,Credit Card,0.5,Online
+TXN-2025-0690,BILL-1149,14-01-2025,S3,Uptown,C113,New,P303,Personal Care,Face Cream,4,4.39,Credit Card,0,Online
+TXN-2025-0691,BILL-1150,10-01-2025,S3,Uptown,C101,Regular,P210,Snacks,Nachos,2,2.36,UPI,0,Online
+TXN-2025-0692,BILL-1150,02-01-2025,S3,Uptown,C075,New,P401,Beverages,Green Tea,1,7.47,Cash,0.5,In-store
+TXN-2025-0693,BILL-1150,11-01-2025,S1,Downtown,C131,New,P101,Beverages,Orange Juice 1L,5,2.77,Cash,0,Online
+TXN-2025-0694,BILL-1151,25-01-2025,S1,Downtown,C095,New,P501,Snacks,Chocolate Bar,2,6.08,UPI,0,Online
+TXN-2025-0695,BILL-1151,28-01-2025,S3,Uptown,C138,New,P302,Personal Care,Body Wash,1,2.69,UPI,1,In-store
+TXN-2025-0696,BILL-1151,17-01-2025,S2,Suburban,C111,Loyal,P210,Snacks,Nachos,4,8.69,Cash,0.5,Online
+TXN-2025-0697,BILL-1151,04-01-2025,S2,Suburban,C122,New,P210,Snacks,Nachos,5,5.32,UPI,1,Online
+TXN-2025-0698,BILL-1151,24-01-2025,S2,Suburban,C026,Regular,P101,Beverages,Orange Juice 1L,5,5.55,UPI,1,Online
+TXN-2025-0699,BILL-1151,29-01-2025,S3,Uptown,C023,Loyal,P205,Snacks,Potato Chips,3,5.24,Cash,1,In-store
+TXN-2025-0700,BILL-1151,31-01-2025,S3,Uptown,C083,Regular,P205,Snacks,Potato Chips,5,9.82,Cash,1,Online
+TXN-2025-0701,BILL-1151,03-01-2025,S2,Suburban,C045,New,P205,Snacks,Potato Chips,5,3.02,Cash,1,In-store
+TXN-2025-0702,BILL-1151,21-01-2025,S2,Suburban,C037,Regular,P102,Beverages,Soda 500ml,3,1.79,Cash,1,In-store
+TXN-2025-0703,BILL-1151,20-01-2025,S3,Uptown,C034,New,P303,Personal Care,Face Cream,4,4.01,UPI,1,Online
+TXN-2025-0704,BILL-1152,30-01-2025,S2,Suburban,C144,Regular,P102,Beverages,Soda 500ml,3,5.4,Credit Card,1,Online
+TXN-2025-0705,BILL-1152,19-01-2025,S3,Uptown,C085,Regular,P401,Beverages,Green Tea,4,8.33,Cash,0,Online
+TXN-2025-0706,BILL-1152,08-01-2025,S1,Downtown,C057,Loyal,P102,Beverages,Soda 500ml,3,6.8,UPI,0.5,In-store
+TXN-2025-0707,BILL-1152,16-01-2025,S1,Downtown,C043,New,P210,Snacks,Nachos,2,4.17,Cash,1,Online
+TXN-2025-0708,BILL-1152,07-01-2025,S1,Downtown,C114,New,P301,Personal Care,Shampoo 250ml,1,2.92,Cash,0.5,Online
+TXN-2025-0709,BILL-1152,09-01-2025,S2,Suburban,C096,Regular,P302,Personal Care,Body Wash,1,2.9,Credit Card,0,In-store
+TXN-2025-0710,BILL-1153,12-01-2025,S1,Downtown,C016,New,P302,Personal Care,Body Wash,2,7.71,Cash,0,Online
+TXN-2025-0711,BILL-1153,21-01-2025,S2,Suburban,C127,Loyal,P210,Snacks,Nachos,5,3.86,UPI,1,In-store
+TXN-2025-0712,BILL-1154,22-01-2025,S3,Uptown,C096,Regular,P303,Personal Care,Face Cream,3,3.87,UPI,0,Online
+TXN-2025-0713,BILL-1155,20-01-2025,S2,Suburban,C143,Regular,P205,Snacks,Potato Chips,1,1.66,Credit Card,1,In-store
+TXN-2025-0714,BILL-1156,15-01-2025,S1,Downtown,C043,Regular,P101,Beverages,Orange Juice 1L,4,8.76,Credit Card,1,In-store
+TXN-2025-0715,BILL-1157,12-01-2025,S3,Uptown,C107,Loyal,P501,Snacks,Chocolate Bar,4,1.03,UPI,0,In-store
+TXN-2025-0716,BILL-1157,12-01-2025,S1,Downtown,C093,New,P102,Beverages,Soda 500ml,2,9.55,Credit Card,0,In-store
+TXN-2025-0717,BILL-1157,30-01-2025,S2,Suburban,C137,Loyal,P102,Beverages,Soda 500ml,5,7.52,Credit Card,1,Online
+TXN-2025-0718,BILL-1157,09-01-2025,S3,Uptown,C090,Loyal,P205,Snacks,Potato Chips,3,4.15,Cash,0,Online
+TXN-2025-0719,BILL-1157,18-01-2025,S3,Uptown,C050,New,P301,Personal Care,Shampoo 250ml,1,5.62,UPI,0,In-store
+TXN-2025-0720,BILL-1157,18-01-2025,S3,Uptown,C070,Regular,P101,Beverages,Orange Juice 1L,4,1.75,Credit Card,0.5,In-store
+TXN-2025-0721,BILL-1157,29-01-2025,S1,Downtown,C089,Regular,P501,Snacks,Chocolate Bar,3,2.95,Credit Card,1,Online
+TXN-2025-0722,BILL-1157,14-01-2025,S3,Uptown,C059,Regular,P101,Beverages,Orange Juice 1L,5,6.21,Cash,1,In-store
+TXN-2025-0723,BILL-1157,04-01-2025,S3,Uptown,C086,New,P401,Beverages,Green Tea,2,9.65,UPI,0.5,Online
+TXN-2025-0724,BILL-1158,22-01-2025,S2,Suburban,C097,Regular,P210,Snacks,Nachos,2,4.74,UPI,0,In-store
+TXN-2025-0725,BILL-1159,25-01-2025,S1,Downtown,C059,Loyal,P401,Beverages,Green Tea,3,2.58,Cash,0.5,Online
+TXN-2025-0726,BILL-1159,04-01-2025,S3,Uptown,C058,New,P302,Personal Care,Body Wash,5,1.25,Cash,0,In-store
+TXN-2025-0727,BILL-1160,26-01-2025,S2,Suburban,C018,Loyal,P401,Beverages,Green Tea,4,9.34,Credit Card,0,In-store
+TXN-2025-0728,BILL-1160,06-01-2025,S2,Suburban,C114,New,P501,Snacks,Chocolate Bar,2,3.52,UPI,1,Online
+TXN-2025-0729,BILL-1160,03-01-2025,S3,Uptown,C101,Regular,P101,Beverages,Orange Juice 1L,5,8.69,UPI,1,In-store
+TXN-2025-0730,BILL-1160,23-01-2025,S1,Downtown,C092,Regular,P205,Snacks,Potato Chips,4,8.76,Credit Card,0,Online
+TXN-2025-0731,BILL-1160,04-01-2025,S1,Downtown,C009,New,P401,Beverages,Green Tea,5,1.41,Cash,1,In-store
+TXN-2025-0732,BILL-1160,04-01-2025,S3,Uptown,C036,New,P302,Personal Care,Body Wash,4,9.68,Cash,0.5,Online
+TXN-2025-0733,BILL-1160,25-01-2025,S1,Downtown,C119,Regular,P303,Personal Care,Face Cream,3,3.49,UPI,1,In-store
+TXN-2025-0734,BILL-1160,14-01-2025,S3,Uptown,C081,Regular,P210,Snacks,Nachos,5,9.95,UPI,0,Online
+TXN-2025-0735,BILL-1160,07-01-2025,S2,Suburban,C080,Regular,P102,Beverages,Soda 500ml,1,2.4,Cash,0.5,In-store
+TXN-2025-0736,BILL-1160,25-01-2025,S3,Uptown,C093,Loyal,P401,Beverages,Green Tea,5,3.04,UPI,0,Online
+TXN-2025-0737,BILL-1160,04-01-2025,S1,Downtown,C150,New,P401,Beverages,Green Tea,3,6.84,Credit Card,1,Online
+TXN-2025-0738,BILL-1160,17-01-2025,S3,Uptown,C090,New,P302,Personal Care,Body Wash,3,6.48,Credit Card,0,Online
+TXN-2025-0739,BILL-1160,14-01-2025,S1,Downtown,C113,Regular,P101,Beverages,Orange Juice 1L,1,3.22,UPI,1,In-store
+TXN-2025-0740,BILL-1160,27-01-2025,S1,Downtown,C133,New,P102,Beverages,Soda 500ml,4,3.01,UPI,1,Online
+TXN-2025-0741,BILL-1160,21-01-2025,S2,Suburban,C060,Loyal,P302,Personal Care,Body Wash,5,8.38,Cash,0,In-store
+TXN-2025-0742,BILL-1161,24-01-2025,S2,Suburban,C002,Regular,P302,Personal Care,Body Wash,5,7.15,Cash,0.5,Online
+TXN-2025-0743,BILL-1162,05-01-2025,S1,Downtown,C037,New,P210,Snacks,Nachos,2,5.72,UPI,0,Online
+TXN-2025-0744,BILL-1162,20-01-2025,S1,Downtown,C136,Loyal,P205,Snacks,Potato Chips,1,7.16,Cash,1,In-store
+TXN-2025-0745,BILL-1162,16-01-2025,S2,Suburban,C074,Regular,P501,Snacks,Chocolate Bar,5,2.31,UPI,1,In-store
+TXN-2025-0746,BILL-1162,09-01-2025,S1,Downtown,C137,New,P301,Personal Care,Shampoo 250ml,4,6.76,Credit Card,0.5,In-store
+TXN-2025-0747,BILL-1162,02-01-2025,S2,Suburban,C024,New,P303,Personal Care,Face Cream,4,3.01,Cash,0.5,Online
+TXN-2025-0748,BILL-1163,27-01-2025,S1,Downtown,C036,Regular,P302,Personal Care,Body Wash,5,6.7,UPI,0.5,Online
+TXN-2025-0749,BILL-1163,23-01-2025,S2,Suburban,C140,New,P101,Beverages,Orange Juice 1L,2,6.01,Credit Card,0,In-store
+TXN-2025-0750,BILL-1164,20-01-2025,S3,Uptown,C129,Regular,P303,Personal Care,Face Cream,5,7.5,Cash,0.5,In-store
+TXN-2025-0751,BILL-1164,13-01-2025,S2,Suburban,C078,Regular,P302,Personal Care,Body Wash,1,6.17,UPI,1,In-store
+TXN-2025-0752,BILL-1164,06-01-2025,S3,Uptown,C027,New,P101,Beverages,Orange Juice 1L,3,8.16,Cash,1,In-store
+TXN-2025-0753,BILL-1164,19-01-2025,S1,Downtown,C093,Regular,P102,Beverages,Soda 500ml,2,6.39,Cash,0,Online
+TXN-2025-0754,BILL-1164,21-01-2025,S3,Uptown,C126,Regular,P401,Beverages,Green Tea,2,5.28,Cash,0,Online
+TXN-2025-0755,BILL-1165,19-01-2025,S3,Uptown,C129,Regular,P501,Snacks,Chocolate Bar,3,6.88,Cash,1,In-store
+TXN-2025-0756,BILL-1166,28-01-2025,S1,Downtown,C121,Loyal,P101,Beverages,Orange Juice 1L,3,1.95,UPI,0,In-store
+TXN-2025-0757,BILL-1166,16-01-2025,S1,Downtown,C011,New,P101,Beverages,Orange Juice 1L,2,3.25,UPI,1,Online
+TXN-2025-0758,BILL-1166,14-01-2025,S3,Uptown,C071,New,P102,Beverages,Soda 500ml,5,8.15,Cash,0.5,Online
+TXN-2025-0759,BILL-1167,17-01-2025,S2,Suburban,C001,Regular,P301,Personal Care,Shampoo 250ml,2,6.71,Credit Card,1,In-store
+TXN-2025-0760,BILL-1168,17-01-2025,S2,Suburban,C113,New,P303,Personal Care,Face Cream,3,4.24,Cash,0,Online
+TXN-2025-0761,BILL-1168,17-01-2025,S2,Suburban,C073,New,P101,Beverages,Orange Juice 1L,5,4.43,UPI,1,Online
+TXN-2025-0762,BILL-1168,10-01-2025,S1,Downtown,C098,Regular,P301,Personal Care,Shampoo 250ml,5,4.93,Cash,0.5,Online
+TXN-2025-0763,BILL-1168,27-01-2025,S1,Downtown,C036,Regular,P205,Snacks,Potato Chips,4,5.64,Credit Card,1,In-store
+TXN-2025-0764,BILL-1168,19-01-2025,S3,Uptown,C149,Loyal,P205,Snacks,Potato Chips,2,2.99,Cash,1,Online
+TXN-2025-0765,BILL-1168,15-01-2025,S3,Uptown,C107,Regular,P501,Snacks,Chocolate Bar,2,8.27,Credit Card,1,Online
+TXN-2025-0766,BILL-1168,18-01-2025,S1,Downtown,C022,New,P401,Beverages,Green Tea,3,7.97,Cash,0,Online
+TXN-2025-0767,BILL-1168,29-01-2025,S1,Downtown,C125,Regular,P210,Snacks,Nachos,5,6.78,Credit Card,1,In-store
+TXN-2025-0768,BILL-1168,30-01-2025,S1,Downtown,C064,Regular,P210,Snacks,Nachos,1,5.3,Credit Card,0.5,In-store
+TXN-2025-0769,BILL-1168,26-01-2025,S1,Downtown,C062,Loyal,P210,Snacks,Nachos,5,3.24,UPI,0.5,In-store
+TXN-2025-0770,BILL-1168,25-01-2025,S2,Suburban,C037,Regular,P301,Personal Care,Shampoo 250ml,1,2.21,Credit Card,0,In-store
+TXN-2025-0771,BILL-1168,14-01-2025,S1,Downtown,C024,New,P401,Beverages,Green Tea,5,9.31,Cash,1,In-store
+TXN-2025-0772,BILL-1168,02-01-2025,S1,Downtown,C023,Regular,P302,Personal Care,Body Wash,2,3.78,Credit Card,1,In-store
+TXN-2025-0773,BILL-1168,20-01-2025,S3,Uptown,C108,New,P501,Snacks,Chocolate Bar,1,6.8,UPI,0.5,Online
+TXN-2025-0774,BILL-1168,30-01-2025,S2,Suburban,C096,Regular,P205,Snacks,Potato Chips,4,5.83,UPI,0.5,In-store
+TXN-2025-0775,BILL-1169,21-01-2025,S1,Downtown,C010,New,P210,Snacks,Nachos,4,1.67,Cash,1,In-store
+TXN-2025-0776,BILL-1170,07-01-2025,S3,Uptown,C095,Regular,P102,Beverages,Soda 500ml,5,9.02,UPI,0.5,Online
+TXN-2025-0777,BILL-1170,29-01-2025,S2,Suburban,C032,Loyal,P501,Snacks,Chocolate Bar,5,5.79,Cash,0,In-store
+TXN-2025-0778,BILL-1170,24-01-2025,S2,Suburban,C032,Loyal,P102,Beverages,Soda 500ml,5,7.95,UPI,1,In-store
+TXN-2025-0779,BILL-1170,25-01-2025,S3,Uptown,C019,New,P302,Personal Care,Body Wash,1,1.65,Cash,0.5,In-store
+TXN-2025-0780,BILL-1170,14-01-2025,S1,Downtown,C011,Regular,P210,Snacks,Nachos,5,1.19,UPI,1,In-store
+TXN-2025-0781,BILL-1170,08-01-2025,S1,Downtown,C071,New,P101,Beverages,Orange Juice 1L,5,3.08,UPI,0.5,In-store
+TXN-2025-0782,BILL-1170,31-01-2025,S1,Downtown,C124,Loyal,P302,Personal Care,Body Wash,5,6.36,UPI,1,Online
+TXN-2025-0783,BILL-1170,19-01-2025,S2,Suburban,C125,Regular,P205,Snacks,Potato Chips,1,6.9,UPI,0.5,Online
+TXN-2025-0784,BILL-1170,26-01-2025,S3,Uptown,C058,Regular,P210,Snacks,Nachos,4,9.76,UPI,0.5,In-store
+TXN-2025-0785,BILL-1170,05-01-2025,S2,Suburban,C028,Regular,P102,Beverages,Soda 500ml,1,9.53,Cash,0.5,In-store
+TXN-2025-0786,BILL-1170,30-01-2025,S1,Downtown,C124,New,P210,Snacks,Nachos,5,6.38,UPI,0.5,In-store
+TXN-2025-0787,BILL-1170,30-01-2025,S1,Downtown,C096,Regular,P301,Personal Care,Shampoo 250ml,2,1.04,UPI,0,Online
+TXN-2025-0788,BILL-1170,20-01-2025,S1,Downtown,C080,New,P501,Snacks,Chocolate Bar,1,6.92,Cash,0,In-store
+TXN-2025-0789,BILL-1170,19-01-2025,S1,Downtown,C065,Loyal,P102,Beverages,Soda 500ml,4,3.61,Cash,0.5,In-store
+TXN-2025-0790,BILL-1170,03-01-2025,S3,Uptown,C032,New,P102,Beverages,Soda 500ml,2,2.22,UPI,0,Online
+TXN-2025-0791,BILL-1170,09-01-2025,S1,Downtown,C047,New,P501,Snacks,Chocolate Bar,1,6.01,Cash,1,In-store
+TXN-2025-0792,BILL-1170,22-01-2025,S2,Suburban,C108,Loyal,P210,Snacks,Nachos,4,5.81,Cash,1,Online
+TXN-2025-0793,BILL-1170,15-01-2025,S3,Uptown,C076,Loyal,P205,Snacks,Potato Chips,2,3.62,UPI,0,Online
+TXN-2025-0794,BILL-1170,27-01-2025,S1,Downtown,C131,Loyal,P501,Snacks,Chocolate Bar,3,8.42,Credit Card,0.5,In-store
+TXN-2025-0795,BILL-1170,24-01-2025,S2,Suburban,C029,Loyal,P303,Personal Care,Face Cream,2,3.34,Cash,0,In-store
+TXN-2025-0796,BILL-1170,06-01-2025,S1,Downtown,C065,Regular,P205,Snacks,Potato Chips,3,2.69,Cash,0,In-store
+TXN-2025-0797,BILL-1170,26-01-2025,S1,Downtown,C029,Loyal,P205,Snacks,Potato Chips,2,8.15,Credit Card,0,In-store
+TXN-2025-0798,BILL-1170,29-01-2025,S3,Uptown,C120,Regular,P501,Snacks,Chocolate Bar,3,8.79,UPI,0.5,In-store
+TXN-2025-0799,BILL-1170,11-01-2025,S3,Uptown,C137,New,P401,Beverages,Green Tea,3,2.78,UPI,0.5,In-store
+TXN-2025-0800,BILL-1170,16-01-2025,S3,Uptown,C022,Loyal,P302,Personal Care,Body Wash,4,3.53,UPI,1,Online
+TXN-2025-0801,BILL-1170,26-01-2025,S2,Suburban,C132,Regular,P205,Snacks,Potato Chips,4,2.31,Cash,1,In-store
+TXN-2025-0802,BILL-1170,04-01-2025,S2,Suburban,C089,New,P302,Personal Care,Body Wash,1,7.92,UPI,0,In-store
+TXN-2025-0803,BILL-1170,26-01-2025,S1,Downtown,C004,Loyal,P210,Snacks,Nachos,5,3.95,UPI,0,In-store
+TXN-2025-0804,BILL-1170,09-01-2025,S1,Downtown,C111,Regular,P102,Beverages,Soda 500ml,2,9.62,Credit Card,1,Online
+TXN-2025-0805,BILL-1170,13-01-2025,S1,Downtown,C069,Regular,P210,Snacks,Nachos,4,8.1,Credit Card,0.5,In-store
+TXN-2025-0806,BILL-1170,25-01-2025,S2,Suburban,C092,Regular,P401,Beverages,Green Tea,4,7.48,Credit Card,1,In-store
+TXN-2025-0807,BILL-1171,29-01-2025,S1,Downtown,C054,Regular,P303,Personal Care,Face Cream,4,7.68,Credit Card,0.5,In-store
+TXN-2025-0808,BILL-1171,05-01-2025,S1,Downtown,C094,New,P401,Beverages,Green Tea,2,5.15,Credit Card,0,Online
+TXN-2025-0809,BILL-1171,04-01-2025,S3,Uptown,C107,Loyal,P301,Personal Care,Shampoo 250ml,4,4.78,UPI,1,Online
+TXN-2025-0810,BILL-1171,13-01-2025,S1,Downtown,C122,New,P501,Snacks,Chocolate Bar,2,5.03,Cash,0.5,Online
+TXN-2025-0811,BILL-1172,21-01-2025,S2,Suburban,C121,Regular,P102,Beverages,Soda 500ml,2,4.24,Cash,1,Online
+TXN-2025-0812,BILL-1172,31-01-2025,S3,Uptown,C001,New,P101,Beverages,Orange Juice 1L,1,6.48,Credit Card,1,Online
+TXN-2025-0813,BILL-1172,30-01-2025,S1,Downtown,C100,Regular,P210,Snacks,Nachos,5,1.21,Cash,0,Online
+TXN-2025-0814,BILL-1173,30-01-2025,S3,Uptown,C119,New,P205,Snacks,Potato Chips,1,6.14,Cash,1,In-store
+TXN-2025-0815,BILL-1173,25-01-2025,S2,Suburban,C038,Regular,P205,Snacks,Potato Chips,5,3.39,Cash,0,Online
+TXN-2025-0816,BILL-1173,05-01-2025,S2,Suburban,C091,Regular,P501,Snacks,Chocolate Bar,5,4.61,Credit Card,1,In-store
+TXN-2025-0817,BILL-1173,01-01-2025,S3,Uptown,C020,Loyal,P501,Snacks,Chocolate Bar,4,7.24,Credit Card,0.5,In-store
+TXN-2025-0818,BILL-1173,03-01-2025,S3,Uptown,C053,Loyal,P101,Beverages,Orange Juice 1L,1,9.84,Cash,0,Online
+TXN-2025-0819,BILL-1173,27-01-2025,S1,Downtown,C150,New,P301,Personal Care,Shampoo 250ml,3,7.25,Credit Card,0.5,In-store
+TXN-2025-0820,BILL-1174,20-01-2025,S3,Uptown,C043,Regular,P401,Beverages,Green Tea,3,2.36,Cash,0,Online
+TXN-2025-0821,BILL-1174,08-01-2025,S2,Suburban,C126,New,P102,Beverages,Soda 500ml,1,9.43,Credit Card,0,In-store
+TXN-2025-0822,BILL-1174,30-01-2025,S1,Downtown,C015,New,P205,Snacks,Potato Chips,5,6.31,Cash,0,In-store
+TXN-2025-0823,BILL-1174,02-01-2025,S3,Uptown,C079,Regular,P501,Snacks,Chocolate Bar,3,4.05,Cash,1,Online
+TXN-2025-0824,BILL-1174,27-01-2025,S3,Uptown,C035,New,P303,Personal Care,Face Cream,3,7.75,UPI,0.5,Online
+TXN-2025-0825,BILL-1174,06-01-2025,S2,Suburban,C031,Regular,P303,Personal Care,Face Cream,4,5.79,Cash,0.5,In-store
+TXN-2025-0826,BILL-1174,21-01-2025,S2,Suburban,C130,New,P102,Beverages,Soda 500ml,1,6.01,Credit Card,0,In-store
+TXN-2025-0827,BILL-1175,05-01-2025,S1,Downtown,C065,Loyal,P303,Personal Care,Face Cream,4,8.83,Cash,0,Online
+TXN-2025-0828,BILL-1176,20-01-2025,S3,Uptown,C118,New,P102,Beverages,Soda 500ml,4,3.72,UPI,1,In-store
+TXN-2025-0829,BILL-1177,13-01-2025,S1,Downtown,C133,New,P501,Snacks,Chocolate Bar,4,2.75,UPI,0.5,Online
+TXN-2025-0830,BILL-1177,31-01-2025,S2,Suburban,C029,Regular,P303,Personal Care,Face Cream,5,9.89,Cash,1,Online
+TXN-2025-0831,BILL-1177,02-01-2025,S3,Uptown,C088,Regular,P501,Snacks,Chocolate Bar,5,1.52,UPI,1,Online
+TXN-2025-0832,BILL-1177,14-01-2025,S3,Uptown,C076,New,P303,Personal Care,Face Cream,2,7.19,Credit Card,0,In-store
+TXN-2025-0833,BILL-1177,29-01-2025,S1,Downtown,C019,Loyal,P301,Personal Care,Shampoo 250ml,4,1.8,UPI,0,Online
+TXN-2025-0834,BILL-1177,02-01-2025,S1,Downtown,C058,Loyal,P302,Personal Care,Body Wash,2,3,UPI,1,Online
+TXN-2025-0835,BILL-1177,15-01-2025,S3,Uptown,C120,New,P301,Personal Care,Shampoo 250ml,5,6.08,Cash,1,Online
+TXN-2025-0836,BILL-1177,13-01-2025,S3,Uptown,C104,New,P210,Snacks,Nachos,1,7.87,Credit Card,0,In-store
+TXN-2025-0837,BILL-1177,25-01-2025,S1,Downtown,C119,Loyal,P101,Beverages,Orange Juice 1L,1,7.53,UPI,1,Online
+TXN-2025-0838,BILL-1177,02-01-2025,S3,Uptown,C071,Regular,P302,Personal Care,Body Wash,4,4.21,UPI,0.5,In-store
+TXN-2025-0839,BILL-1177,08-01-2025,S3,Uptown,C142,Loyal,P303,Personal Care,Face Cream,4,5.06,Credit Card,1,Online
+TXN-2025-0840,BILL-1177,17-01-2025,S3,Uptown,C046,Regular,P302,Personal Care,Body Wash,2,7.17,UPI,0.5,Online
+TXN-2025-0841,BILL-1177,24-01-2025,S3,Uptown,C011,New,P101,Beverages,Orange Juice 1L,2,5.63,UPI,0,Online
+TXN-2025-0842,BILL-1177,11-01-2025,S3,Uptown,C009,Regular,P302,Personal Care,Body Wash,5,8.7,Cash,0.5,In-store
+TXN-2025-0843,BILL-1177,19-01-2025,S1,Downtown,C111,Regular,P301,Personal Care,Shampoo 250ml,4,2.01,Cash,1,Online
+TXN-2025-0844,BILL-1177,25-01-2025,S2,Suburban,C036,New,P501,Snacks,Chocolate Bar,1,8.86,Cash,0.5,Online
+TXN-2025-0845,BILL-1177,04-01-2025,S3,Uptown,C031,Regular,P302,Personal Care,Body Wash,3,9.11,Cash,0,Online
+TXN-2025-0846,BILL-1177,29-01-2025,S3,Uptown,C072,Regular,P401,Beverages,Green Tea,1,2.43,UPI,0.5,In-store
+TXN-2025-0847,BILL-1177,10-01-2025,S3,Uptown,C058,Loyal,P501,Snacks,Chocolate Bar,4,3.72,Cash,0,In-store
+TXN-2025-0848,BILL-1177,28-01-2025,S2,Suburban,C068,New,P302,Personal Care,Body Wash,1,4.5,Credit Card,0.5,Online
+TXN-2025-0849,BILL-1177,30-01-2025,S3,Uptown,C134,Regular,P102,Beverages,Soda 500ml,1,5.57,Credit Card,1,In-store
+TXN-2025-0850,BILL-1177,27-01-2025,S3,Uptown,C128,Regular,P303,Personal Care,Face Cream,1,7.33,UPI,1,In-store
+TXN-2025-0851,BILL-1177,19-01-2025,S3,Uptown,C026,Loyal,P102,Beverages,Soda 500ml,5,5.68,UPI,0,In-store
+TXN-2025-0852,BILL-1177,08-01-2025,S2,Suburban,C107,Regular,P401,Beverages,Green Tea,1,5.34,UPI,0,In-store
+TXN-2025-0853,BILL-1177,28-01-2025,S1,Downtown,C090,Loyal,P205,Snacks,Potato Chips,5,5.22,Credit Card,0,Online
+TXN-2025-0854,BILL-1177,23-01-2025,S2,Suburban,C130,Regular,P102,Beverages,Soda 500ml,3,1.27,UPI,1,In-store
+TXN-2025-0855,BILL-1177,20-01-2025,S2,Suburban,C110,Loyal,P303,Personal Care,Face Cream,4,3.66,Cash,0,In-store
+TXN-2025-0856,BILL-1177,20-01-2025,S1,Downtown,C018,Regular,P303,Personal Care,Face Cream,4,2.98,Cash,0,Online
+TXN-2025-0857,BILL-1177,22-01-2025,S1,Downtown,C033,Loyal,P102,Beverages,Soda 500ml,3,9.32,Cash,1,Online
+TXN-2025-0858,BILL-1177,17-01-2025,S3,Uptown,C144,New,P205,Snacks,Potato Chips,1,8.98,UPI,0.5,In-store
+TXN-2025-0859,BILL-1177,06-01-2025,S1,Downtown,C009,Regular,P205,Snacks,Potato Chips,3,9.02,UPI,0.5,In-store
+TXN-2025-0860,BILL-1177,24-01-2025,S1,Downtown,C133,Regular,P302,Personal Care,Body Wash,5,3.39,Credit Card,1,Online
+TXN-2025-0861,BILL-1177,16-01-2025,S2,Suburban,C117,New,P401,Beverages,Green Tea,3,3.88,Credit Card,0,In-store
+TXN-2025-0862,BILL-1177,26-01-2025,S3,Uptown,C038,Regular,P210,Snacks,Nachos,5,9.64,UPI,0.5,Online
+TXN-2025-0863,BILL-1177,02-01-2025,S1,Downtown,C098,Regular,P210,Snacks,Nachos,2,2.66,Cash,1,In-store
+TXN-2025-0864,BILL-1177,27-01-2025,S1,Downtown,C034,Regular,P205,Snacks,Potato Chips,1,5.08,Cash,0.5,Online
+TXN-2025-0865,BILL-1177,22-01-2025,S1,Downtown,C149,Regular,P501,Snacks,Chocolate Bar,3,2.03,Credit Card,0,In-store
+TXN-2025-0866,BILL-1177,17-01-2025,S2,Suburban,C021,Loyal,P102,Beverages,Soda 500ml,3,6.15,Cash,0.5,Online
+TXN-2025-0867,BILL-1177,03-01-2025,S2,Suburban,C036,Regular,P205,Snacks,Potato Chips,2,2.93,Cash,0,In-store
+TXN-2025-0868,BILL-1178,01-01-2025,S1,Downtown,C117,Loyal,P301,Personal Care,Shampoo 250ml,3,8.67,Cash,0,Online
+TXN-2025-0869,BILL-1178,28-01-2025,S3,Uptown,C089,Regular,P102,Beverages,Soda 500ml,4,9.27,Cash,1,In-store
+TXN-2025-0870,BILL-1178,07-01-2025,S3,Uptown,C089,New,P301,Personal Care,Shampoo 250ml,3,9.68,UPI,0.5,Online
+TXN-2025-0871,BILL-1179,18-01-2025,S2,Suburban,C004,Regular,P210,Snacks,Nachos,3,3.71,Cash,0,In-store
+TXN-2025-0872,BILL-1179,05-01-2025,S3,Uptown,C030,Loyal,P102,Beverages,Soda 500ml,3,8.97,Credit Card,0.5,In-store
+TXN-2025-0873,BILL-1179,25-01-2025,S1,Downtown,C069,New,P401,Beverages,Green Tea,4,8.96,UPI,0.5,Online
+TXN-2025-0874,BILL-1179,26-01-2025,S3,Uptown,C111,Loyal,P210,Snacks,Nachos,4,4.5,UPI,1,Online
+TXN-2025-0875,BILL-1179,27-01-2025,S3,Uptown,C024,Loyal,P303,Personal Care,Face Cream,1,2.28,Cash,0.5,Online
+TXN-2025-0876,BILL-1180,10-01-2025,S1,Downtown,C087,Regular,P205,Snacks,Potato Chips,5,7.78,UPI,0,Online
+TXN-2025-0877,BILL-1180,29-01-2025,S1,Downtown,C067,New,P301,Personal Care,Shampoo 250ml,4,8.55,Cash,0,In-store
+TXN-2025-0878,BILL-1180,13-01-2025,S3,Uptown,C118,Loyal,P401,Beverages,Green Tea,2,6.46,Credit Card,0.5,Online
+TXN-2025-0879,BILL-1181,05-01-2025,S3,Uptown,C069,Loyal,P101,Beverages,Orange Juice 1L,4,2.53,Cash,0.5,Online
+TXN-2025-0880,BILL-1181,15-01-2025,S1,Downtown,C001,Loyal,P501,Snacks,Chocolate Bar,3,3.61,Credit Card,0,Online
+TXN-2025-0881,BILL-1181,23-01-2025,S2,Suburban,C050,Loyal,P301,Personal Care,Shampoo 250ml,5,7.86,Credit Card,1,In-store
+TXN-2025-0882,BILL-1181,02-01-2025,S3,Uptown,C055,New,P301,Personal Care,Shampoo 250ml,3,2.21,UPI,0.5,In-store
+TXN-2025-0883,BILL-1181,23-01-2025,S2,Suburban,C045,Regular,P301,Personal Care,Shampoo 250ml,3,5.17,UPI,1,Online
+TXN-2025-0884,BILL-1182,15-01-2025,S1,Downtown,C091,Loyal,P302,Personal Care,Body Wash,3,5.26,UPI,1,Online
+TXN-2025-0885,BILL-1182,07-01-2025,S2,Suburban,C073,New,P302,Personal Care,Body Wash,3,9.76,UPI,1,Online
+TXN-2025-0886,BILL-1182,01-01-2025,S2,Suburban,C146,Regular,P401,Beverages,Green Tea,5,3.36,Credit Card,1,In-store
+TXN-2025-0887,BILL-1183,10-01-2025,S3,Uptown,C079,Regular,P303,Personal Care,Face Cream,2,5.82,Cash,1,In-store
+TXN-2025-0888,BILL-1183,04-01-2025,S2,Suburban,C107,New,P301,Personal Care,Shampoo 250ml,4,6.67,Cash,0,In-store
+TXN-2025-0889,BILL-1183,27-01-2025,S3,Uptown,C143,New,P303,Personal Care,Face Cream,3,4.78,Cash,0.5,In-store
+TXN-2025-0890,BILL-1183,14-01-2025,S3,Uptown,C095,New,P205,Snacks,Potato Chips,2,7.17,Cash,1,In-store
+TXN-2025-0891,BILL-1183,15-01-2025,S3,Uptown,C149,Loyal,P301,Personal Care,Shampoo 250ml,3,9.81,UPI,1,Online
+TXN-2025-0892,BILL-1184,14-01-2025,S1,Downtown,C092,Regular,P101,Beverages,Orange Juice 1L,5,9.09,UPI,0.5,Online
+TXN-2025-0893,BILL-1184,05-01-2025,S1,Downtown,C023,Loyal,P303,Personal Care,Face Cream,1,8.29,Cash,1,In-store
+TXN-2025-0894,BILL-1184,26-01-2025,S2,Suburban,C003,Loyal,P303,Personal Care,Face Cream,2,6.46,UPI,1,Online
+TXN-2025-0895,BILL-1185,07-01-2025,S2,Suburban,C105,New,P302,Personal Care,Body Wash,5,9.05,Cash,0.5,In-store
+TXN-2025-0896,BILL-1185,14-01-2025,S2,Suburban,C043,New,P501,Snacks,Chocolate Bar,2,7.13,Cash,0,Online
+TXN-2025-0897,BILL-1185,25-01-2025,S1,Downtown,C098,Loyal,P301,Personal Care,Shampoo 250ml,4,5.31,Cash,0.5,Online
+TXN-2025-0898,BILL-1185,22-01-2025,S3,Uptown,C013,New,P303,Personal Care,Face Cream,5,4.14,UPI,0.5,Online
+TXN-2025-0899,BILL-1185,19-01-2025,S3,Uptown,C055,Regular,P501,Snacks,Chocolate Bar,2,2.55,Cash,1,Online
+TXN-2025-0900,BILL-1185,25-01-2025,S3,Uptown,C046,Loyal,P205,Snacks,Potato Chips,1,3.54,Credit Card,0.5,In-store
+TXN-2025-0901,BILL-1185,10-01-2025,S1,Downtown,C117,New,P401,Beverages,Green Tea,2,8.51,UPI,0.5,Online
+TXN-2025-0902,BILL-1185,09-01-2025,S2,Suburban,C114,Loyal,P205,Snacks,Potato Chips,3,5.55,Credit Card,1,In-store
+TXN-2025-0903,BILL-1185,09-01-2025,S2,Suburban,C147,New,P205,Snacks,Potato Chips,5,2.25,Credit Card,1,Online
+TXN-2025-0904,BILL-1185,23-01-2025,S3,Uptown,C139,New,P302,Personal Care,Body Wash,3,7.01,Cash,0.5,In-store
+TXN-2025-0905,BILL-1185,24-01-2025,S2,Suburban,C002,Regular,P501,Snacks,Chocolate Bar,4,6.11,Credit Card,0.5,In-store
+TXN-2025-0906,BILL-1186,03-01-2025,S1,Downtown,C036,Regular,P301,Personal Care,Shampoo 250ml,3,2.1,UPI,1,Online
+TXN-2025-0907,BILL-1186,22-01-2025,S3,Uptown,C076,New,P401,Beverages,Green Tea,5,7.44,UPI,0,Online
+TXN-2025-0908,BILL-1187,05-01-2025,S2,Suburban,C076,New,P401,Beverages,Green Tea,5,3.37,UPI,0.5,In-store
+TXN-2025-0909,BILL-1187,31-01-2025,S2,Suburban,C074,New,P210,Snacks,Nachos,3,3.74,UPI,0.5,Online
+TXN-2025-0910,BILL-1188,17-01-2025,S1,Downtown,C127,New,P101,Beverages,Orange Juice 1L,2,3.63,UPI,0.5,Online
+TXN-2025-0911,BILL-1188,08-01-2025,S3,Uptown,C053,Loyal,P102,Beverages,Soda 500ml,2,6.36,Cash,0.5,Online
+TXN-2025-0912,BILL-1188,29-01-2025,S2,Suburban,C129,New,P205,Snacks,Potato Chips,3,3.15,Cash,0.5,Online
+TXN-2025-0913,BILL-1188,07-01-2025,S2,Suburban,C108,Regular,P210,Snacks,Nachos,5,2.67,UPI,0,In-store
+TXN-2025-0914,BILL-1188,15-01-2025,S3,Uptown,C136,New,P302,Personal Care,Body Wash,4,3.43,UPI,0,Online
+TXN-2025-0915,BILL-1188,16-01-2025,S2,Suburban,C083,Loyal,P401,Beverages,Green Tea,1,2.37,Credit Card,1,Online
+TXN-2025-0916,BILL-1188,30-01-2025,S1,Downtown,C137,New,P205,Snacks,Potato Chips,3,7.93,Credit Card,0.5,In-store
+TXN-2025-0917,BILL-1188,27-01-2025,S3,Uptown,C027,Loyal,P102,Beverages,Soda 500ml,5,7,Cash,0,Online
+TXN-2025-0918,BILL-1188,06-01-2025,S2,Suburban,C112,New,P205,Snacks,Potato Chips,4,4.6,Cash,1,In-store
+TXN-2025-0919,BILL-1188,13-01-2025,S2,Suburban,C052,New,P501,Snacks,Chocolate Bar,1,9.03,Credit Card,0.5,In-store
+TXN-2025-0920,BILL-1188,05-01-2025,S2,Suburban,C088,Regular,P205,Snacks,Potato Chips,1,9.41,UPI,0.5,In-store
+TXN-2025-0921,BILL-1188,12-01-2025,S3,Uptown,C109,New,P102,Beverages,Soda 500ml,4,2.38,UPI,1,In-store
+TXN-2025-0922,BILL-1188,25-01-2025,S1,Downtown,C095,Regular,P501,Snacks,Chocolate Bar,4,3.91,UPI,1,Online
+TXN-2025-0923,BILL-1188,17-01-2025,S1,Downtown,C006,Regular,P102,Beverages,Soda 500ml,2,6.88,Cash,0.5,Online
+TXN-2025-0924,BILL-1188,31-01-2025,S3,Uptown,C091,New,P401,Beverages,Green Tea,2,8.14,Cash,0.5,Online
+TXN-2025-0925,BILL-1189,23-01-2025,S2,Suburban,C063,New,P101,Beverages,Orange Juice 1L,5,4.76,Credit Card,0.5,Online
+TXN-2025-0926,BILL-1190,13-01-2025,S1,Downtown,C006,Loyal,P401,Beverages,Green Tea,5,5.11,UPI,1,In-store
+TXN-2025-0927,BILL-1191,24-01-2025,S1,Downtown,C096,New,P303,Personal Care,Face Cream,4,3.19,UPI,1,Online
+TXN-2025-0928,BILL-1191,19-01-2025,S1,Downtown,C129,Loyal,P303,Personal Care,Face Cream,2,3.45,UPI,1,Online
+TXN-2025-0929,BILL-1191,03-01-2025,S1,Downtown,C135,New,P205,Snacks,Potato Chips,3,1.91,Credit Card,0,Online
+TXN-2025-0930,BILL-1192,29-01-2025,S1,Downtown,C113,Regular,P205,Snacks,Potato Chips,1,6.16,UPI,0.5,In-store
+TXN-2025-0931,BILL-1192,29-01-2025,S1,Downtown,C073,New,P303,Personal Care,Face Cream,3,1.33,Credit Card,1,Online
+TXN-2025-0932,BILL-1193,08-01-2025,S2,Suburban,C051,New,P501,Snacks,Chocolate Bar,2,5.43,UPI,1,Online
+TXN-2025-0933,BILL-1193,04-01-2025,S1,Downtown,C018,Regular,P501,Snacks,Chocolate Bar,4,4.28,Cash,0,In-store
+TXN-2025-0934,BILL-1193,21-01-2025,S3,Uptown,C088,Regular,P302,Personal Care,Body Wash,4,4.72,Credit Card,1,Online
+TXN-2025-0935,BILL-1193,31-01-2025,S2,Suburban,C023,Regular,P401,Beverages,Green Tea,4,2.28,Cash,1,Online
+TXN-2025-0936,BILL-1193,06-01-2025,S2,Suburban,C135,Loyal,P401,Beverages,Green Tea,4,3.36,Credit Card,1,In-store
+TXN-2025-0937,BILL-1193,16-01-2025,S1,Downtown,C142,Regular,P401,Beverages,Green Tea,3,4.77,UPI,1,In-store
+TXN-2025-0938,BILL-1193,08-01-2025,S2,Suburban,C133,Regular,P303,Personal Care,Face Cream,3,4.76,UPI,0.5,Online
+TXN-2025-0939,BILL-1193,23-01-2025,S3,Uptown,C139,Loyal,P102,Beverages,Soda 500ml,4,2.72,Cash,0.5,In-store
+TXN-2025-0940,BILL-1193,06-01-2025,S2,Suburban,C012,New,P210,Snacks,Nachos,2,1.97,Credit Card,0.5,In-store
+TXN-2025-0941,BILL-1193,17-01-2025,S2,Suburban,C067,Loyal,P101,Beverages,Orange Juice 1L,4,6.93,Credit Card,0,In-store
+TXN-2025-0942,BILL-1193,07-01-2025,S3,Uptown,C094,Regular,P501,Snacks,Chocolate Bar,5,3.17,UPI,1,Online
+TXN-2025-0943,BILL-1193,30-01-2025,S2,Suburban,C039,Loyal,P101,Beverages,Orange Juice 1L,3,5.17,Credit Card,0,Online
+TXN-2025-0944,BILL-1194,28-01-2025,S2,Suburban,C061,New,P301,Personal Care,Shampoo 250ml,5,6.55,Cash,0,In-store
+TXN-2025-0945,BILL-1194,22-01-2025,S1,Downtown,C045,Regular,P301,Personal Care,Shampoo 250ml,5,9.7,Credit Card,1,In-store
+TXN-2025-0946,BILL-1194,13-01-2025,S2,Suburban,C086,Loyal,P102,Beverages,Soda 500ml,4,9.85,Credit Card,0.5,Online
+TXN-2025-0947,BILL-1194,21-01-2025,S3,Uptown,C053,Regular,P102,Beverages,Soda 500ml,5,1.91,Cash,0,Online
+TXN-2025-0948,BILL-1194,05-01-2025,S1,Downtown,C047,Regular,P102,Beverages,Soda 500ml,3,4.54,Credit Card,0,In-store
+TXN-2025-0949,BILL-1194,31-01-2025,S1,Downtown,C093,Regular,P102,Beverages,Soda 500ml,2,5.66,UPI,0.5,In-store
+TXN-2025-0950,BILL-1195,09-01-2025,S2,Suburban,C096,Regular,P303,Personal Care,Face Cream,3,6.87,Credit Card,0,In-store
+TXN-2025-0951,BILL-1195,14-01-2025,S2,Suburban,C102,Regular,P210,Snacks,Nachos,4,7.19,Cash,1,In-store
+TXN-2025-0952,BILL-1195,06-01-2025,S2,Suburban,C144,New,P303,Personal Care,Face Cream,3,5.14,UPI,0,In-store
+TXN-2025-0953,BILL-1195,28-01-2025,S3,Uptown,C143,Loyal,P303,Personal Care,Face Cream,2,4.57,UPI,0,In-store
+TXN-2025-0954,BILL-1196,27-01-2025,S2,Suburban,C018,New,P301,Personal Care,Shampoo 250ml,2,4.73,Credit Card,0,Online
+TXN-2025-0955,BILL-1197,20-01-2025,S3,Uptown,C035,New,P303,Personal Care,Face Cream,3,6.86,Cash,1,Online
+TXN-2025-0956,BILL-1198,19-01-2025,S3,Uptown,C148,Loyal,P401,Beverages,Green Tea,5,1.54,Credit Card,0,In-store
+TXN-2025-0957,BILL-1198,17-01-2025,S2,Suburban,C126,New,P501,Snacks,Chocolate Bar,4,4.38,Cash,0,Online
+TXN-2025-0958,BILL-1198,05-01-2025,S3,Uptown,C081,Loyal,P101,Beverages,Orange Juice 1L,4,2.02,Credit Card,1,In-store
+TXN-2025-0959,BILL-1198,02-01-2025,S3,Uptown,C092,New,P301,Personal Care,Shampoo 250ml,2,9.06,UPI,0,In-store
+TXN-2025-0960,BILL-1199,19-01-2025,S2,Suburban,C033,Regular,P301,Personal Care,Shampoo 250ml,4,1.31,UPI,1,In-store
+TXN-2025-0961,BILL-1199,27-01-2025,S2,Suburban,C128,New,P205,Snacks,Potato Chips,2,6.73,Credit Card,1,Online
+TXN-2025-0962,BILL-1199,07-01-2025,S3,Uptown,C023,New,P501,Snacks,Chocolate Bar,3,7.13,Credit Card,1,Online
+TXN-2025-0963,BILL-1200,07-01-2025,S1,Downtown,C128,New,P102,Beverages,Soda 500ml,4,6.15,Cash,0.5,In-store
+TXN-2025-0964,BILL-1200,18-01-2025,S1,Downtown,C028,Regular,P205,Snacks,Potato Chips,1,6.74,Cash,0.5,Online
+TXN-2025-0965,BILL-1200,14-01-2025,S1,Downtown,C002,Loyal,P205,Snacks,Potato Chips,1,4.62,UPI,0,Online
+TXN-2025-0966,BILL-1200,23-01-2025,S3,Uptown,C108,New,P205,Snacks,Potato Chips,1,9.7,Credit Card,0.5,Online
+TXN-2025-0967,BILL-1200,17-01-2025,S2,Suburban,C036,Loyal,P101,Beverages,Orange Juice 1L,5,2.85,UPI,0,In-store
+TXN-2025-0968,BILL-1200,01-01-2025,S2,Suburban,C060,Loyal,P102,Beverages,Soda 500ml,1,1.45,UPI,0,Online
+TXN-2025-0969,BILL-1200,17-01-2025,S2,Suburban,C112,New,P401,Beverages,Green Tea,2,3.07,Credit Card,0,In-store
+TXN-2025-0970,BILL-1201,12-01-2025,S2,Suburban,C092,Loyal,P401,Beverages,Green Tea,1,3.16,UPI,0,In-store
+TXN-2025-0971,BILL-1201,25-01-2025,S2,Suburban,C065,Loyal,P210,Snacks,Nachos,2,2.11,Cash,0,In-store
+TXN-2025-0972,BILL-1201,23-01-2025,S1,Downtown,C124,Regular,P303,Personal Care,Face Cream,2,6.61,UPI,0.5,Online
+TXN-2025-0973,BILL-1201,16-01-2025,S1,Downtown,C041,New,P303,Personal Care,Face Cream,4,8.57,UPI,0,Online
+TXN-2025-0974,BILL-1201,14-01-2025,S3,Uptown,C075,New,P205,Snacks,Potato Chips,3,1.89,Credit Card,0,Online
+TXN-2025-0975,BILL-1201,24-01-2025,S3,Uptown,C100,Regular,P501,Snacks,Chocolate Bar,5,4.6,Credit Card,0.5,Online
+TXN-2025-0976,BILL-1202,18-01-2025,S1,Downtown,C057,Loyal,P501,Snacks,Chocolate Bar,3,4.46,UPI,1,In-store
+TXN-2025-0977,BILL-1202,20-01-2025,S1,Downtown,C123,New,P301,Personal Care,Shampoo 250ml,2,2.43,UPI,1,In-store
+TXN-2025-0978,BILL-1202,16-01-2025,S3,Uptown,C060,New,P501,Snacks,Chocolate Bar,3,3.32,UPI,0.5,Online
+TXN-2025-0979,BILL-1202,02-01-2025,S3,Uptown,C088,Loyal,P401,Beverages,Green Tea,3,3.78,Cash,0.5,In-store
+TXN-2025-0980,BILL-1203,28-01-2025,S3,Uptown,C082,New,P302,Personal Care,Body Wash,1,5.97,Credit Card,0.5,In-store
+TXN-2025-0981,BILL-1203,12-01-2025,S2,Suburban,C072,Regular,P302,Personal Care,Body Wash,1,5.42,Credit Card,0,Online
+TXN-2025-0982,BILL-1203,18-01-2025,S3,Uptown,C134,Loyal,P302,Personal Care,Body Wash,5,8.86,Credit Card,1,Online
+TXN-2025-0983,BILL-1203,23-01-2025,S2,Suburban,C044,New,P205,Snacks,Potato Chips,5,4.01,Cash,0,Online
+TXN-2025-0984,BILL-1203,03-01-2025,S2,Suburban,C035,New,P205,Snacks,Potato Chips,2,6.18,UPI,1,Online
+TXN-2025-0985,BILL-1203,06-01-2025,S2,Suburban,C110,Regular,P210,Snacks,Nachos,4,2.36,Credit Card,0.5,In-store
+TXN-2025-0986,BILL-1203,01-01-2025,S1,Downtown,C074,Loyal,P303,Personal Care,Face Cream,3,6.51,Credit Card,0.5,In-store
+TXN-2025-0987,BILL-1203,17-01-2025,S1,Downtown,C078,Regular,P303,Personal Care,Face Cream,4,8.63,Credit Card,0.5,Online
+TXN-2025-0988,BILL-1203,07-01-2025,S3,Uptown,C070,Regular,P101,Beverages,Orange Juice 1L,3,8.56,Cash,0.5,Online
+TXN-2025-0989,BILL-1203,26-01-2025,S1,Downtown,C067,Loyal,P102,Beverages,Soda 500ml,5,5.52,Credit Card,0,In-store
+TXN-2025-0990,BILL-1204,11-01-2025,S1,Downtown,C008,Regular,P301,Personal Care,Shampoo 250ml,1,1.5,Cash,1,Online
+TXN-2025-0991,BILL-1204,17-01-2025,S3,Uptown,C115,New,P101,Beverages,Orange Juice 1L,3,2.82,Cash,0.5,In-store
+TXN-2025-0992,BILL-1204,11-01-2025,S1,Downtown,C097,Regular,P301,Personal Care,Shampoo 250ml,2,5.39,Credit Card,0,Online
+TXN-2025-0993,BILL-1204,17-01-2025,S1,Downtown,C006,Regular,P205,Snacks,Potato Chips,3,6.49,Cash,0,Online
+TXN-2025-0994,BILL-1204,20-01-2025,S3,Uptown,C013,New,P501,Snacks,Chocolate Bar,2,7.83,Cash,0,In-store
+TXN-2025-0995,BILL-1204,17-01-2025,S1,Downtown,C005,New,P210,Snacks,Nachos,1,4.67,Credit Card,1,Online
+TXN-2025-0996,BILL-1204,18-01-2025,S3,Uptown,C133,Regular,P102,Beverages,Soda 500ml,2,7.14,Credit Card,1,In-store
+TXN-2025-0997,BILL-1204,18-01-2025,S2,Suburban,C064,Regular,P501,Snacks,Chocolate Bar,1,8.95,Credit Card,0.5,Online
+TXN-2025-0998,BILL-1204,20-01-2025,S3,Uptown,C098,New,P401,Beverages,Green Tea,2,9.59,UPI,0.5,Online
+TXN-2025-0999,BILL-1204,30-01-2025,S3,Uptown,C031,Regular,P101,Beverages,Orange Juice 1L,1,4.85,Cash,0,Online
+TXN-2025-1000,BILL-1204,23-01-2025,S1,Downtown,C106,Regular,P205,Snacks,Potato Chips,3,8.83,UPI,1,Online
