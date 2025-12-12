@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import altair as alt
 
 # Load data
 df = pd.read_csv("transactions_1000.csv")
@@ -63,7 +64,7 @@ with col4:
     st.metric("Unique Customers", df['customer_id'].nunique())
     st.markdown("</div>", unsafe_allow_html=True)
 
-# --- Tabs for Professional Layout ---
+# --- Tabs ---
 tab1, tab2, tab3, tab4 = st.tabs([
     "Revenue by Category",
     "Revenue by Store",
@@ -84,9 +85,20 @@ with tab1:
     if category_filter:
         df_cat = df_cat[df_cat['product_category'].isin(category_filter)]
 
-    st.bar_chart(
-        df_cat.groupby('product_category')['line_revenue'].sum().sort_values()
+    cat_data = df_cat.groupby("product_category")["line_revenue"].sum().reset_index()
+
+    chart = (
+        alt.Chart(cat_data)
+        .mark_bar(color=PRIMARY_COLOR)
+        .encode(
+            x=alt.X("line_revenue:Q", title="Revenue"),
+            y=alt.Y("product_category:N", sort="-x", title="Category"),
+            tooltip=["product_category", "line_revenue"]
+        )
+        .properties(height=400)
     )
+
+    st.altair_chart(chart, use_container_width=True)
 
 # --- TAB 2: Revenue by Store ---
 with tab2:
@@ -101,9 +113,21 @@ with tab2:
     if store_filter:
         df_store = df_store[df_store['store_location'].isin(store_filter)]
 
-    st.bar_chart(
-        df_store.groupby('store_location')['line_revenue'].sum().sort_values()
+    store_data = df_store.groupby("store_location")["line_revenue"].sum().reset_index()
+
+    chart = (
+        alt.Chart(store_data)
+        .mark_bar()
+        .encode(
+            x=alt.X("store_location:N", title="Store"),
+            y=alt.Y("line_revenue:Q", title="Revenue"),
+            color=alt.Color("store_location:N", scale=alt.Scale(scheme="tableau10")),
+            tooltip=["store_location", "line_revenue"]
+        )
+        .properties(height=400)
     )
+
+    st.altair_chart(chart, use_container_width=True)
 
 # --- TAB 3: Top Products ---
 with tab3:
@@ -118,12 +142,27 @@ with tab3:
     if product_filter:
         df_prod = df_prod[df_prod['product_category'].isin(product_filter)]
 
-    st.write(
-        df_prod.groupby('product_name')['line_revenue']
+    prod_data = (
+        df_prod.groupby("product_name")["line_revenue"]
         .sum()
         .sort_values(ascending=False)
         .head(5)
+        .reset_index()
     )
+
+    chart = (
+        alt.Chart(prod_data)
+        .mark_bar()
+        .encode(
+            x=alt.X("line_revenue:Q", title="Revenue"),
+            y=alt.Y("product_name:N", sort="-x", title="Product"),
+            color=alt.Color("line_revenue:Q", scale=alt.Scale(scheme="blues")),
+            tooltip=["product_name", "line_revenue"]
+        )
+        .properties(height=400)
+    )
+
+    st.altair_chart(chart, use_container_width=True)
 
 # --- TAB 4: Top Customers ---
 with tab4:
@@ -138,9 +177,25 @@ with tab4:
     if segment_filter:
         df_cust = df_cust[df_cust['customer_segment'].isin(segment_filter)]
 
-    st.write(
-        df_cust.groupby('customer_id')['line_revenue']
+    cust_data = (
+        df_cust.groupby("customer_id")["line_revenue"]
         .sum()
         .sort_values(ascending=False)
         .head(5)
+        .reset_index()
     )
+
+    chart = (
+        alt.Chart(cust_data)
+        .mark_circle()
+        .encode(
+            x=alt.X("customer_id:N", title="Customer"),
+            y=alt.Y("line_revenue:Q", title="Revenue"),
+            size=alt.Size("line_revenue:Q", scale=alt.Scale(range=[100, 2000])),
+            color=alt.Color("line_revenue:Q", scale=alt.Scale(scheme="oranges")),
+            tooltip=["customer_id", "line_revenue"]
+        )
+        .properties(height=400)
+    )
+
+    st.altair_chart(chart, use_container_width=True)
